@@ -326,8 +326,8 @@ class UtdanningAPIDownloader:
             "failed_results": failed
         }
         
-                # Save summary with proper encoding
-        await self.downloader._save_data(summary, "download_summary")
+        # Save summary with proper encoding
+        await self._save_data(summary, "download_summary")
         
         self.logger.info(f"Download complete: {len(successful)}/{len(simple_urls)} successful")
         
