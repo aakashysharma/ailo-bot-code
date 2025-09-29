@@ -1,3 +1,4 @@
 /__pycache__
 /utdanning_data/raw
 /utdanning_data/logs
+.env
