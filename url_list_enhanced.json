@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://api.utdanning.no/sammenligning/main",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/lonn",
+    "method": "GET",
+    "description": "Requires parameters: arbeidstid, sektor, uno_id"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/arbeidsledighet",
+    "method": "GET",
+    "description": "Requires parameters: uno_id"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/arbeidsmarked",
+    "method": "GET",
+    "description": "Requires parameters: uno_id"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/entrepenorskap",
+    "method": "GET",
+    "description": "Requires parameters: uno_id"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/interesser",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/jobbkompasset/yrker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/styrk08",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/yrker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/{uno_id}",
+    "method": "GET",
+    "description": "Parameterized URL with uno_id"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/{nus_kode}",
+    "method": "GET",
+    "description": "Parameterized URL with nus_kode"
+  }
+]
