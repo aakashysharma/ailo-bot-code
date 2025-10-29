@@ -1,0 +1,19 @@
+2025-10-29 16:02:27 - AILO - INFO - [_setup_logging:108] - ================================================================================
+2025-10-29 16:02:27 - AILO - INFO - [_setup_logging:109] - AILO Chatbot Logging System Initialized
+2025-10-29 16:02:27 - AILO - INFO - [_setup_logging:110] - ================================================================================
+2025-10-29 16:02:27 - AILO - INFO - [load_knowledge_base:164] - ============================================================
+2025-10-29 16:02:27 - AILO - INFO - [load_knowledge_base:165] - STARTING KNOWLEDGE BASE LOADING
+2025-10-29 16:02:27 - AILO - INFO - [load_knowledge_base:166] - ============================================================
+2025-10-29 16:02:27 - AILO - INFO - [load_knowledge_base:167] - Data directory: utdanning_data
+2025-10-29 16:02:27 - AILO - DEBUG - [load_knowledge_base:171] - Looking for vectorization dataset at: utdanning_data/processed/text_for_llm/vectorization_dataset.json
+2025-10-29 16:02:27 - AILO - INFO - [load_knowledge_base:175] - Vectorization dataset found, loading...
+2025-10-29 16:02:32 - AILO - INFO - [load_knowledge_base:180] - ✓ Successfully loaded 50845 documents into knowledge base
+2025-10-29 16:02:32 - AILO - INFO - [_index_knowledge_base:228] - Creating knowledge base index by categories...
+2025-10-29 16:02:32 - AILO - INFO - [_index_knowledge_base:269] - ✓ Knowledge base indexed by categories:
+2025-10-29 16:02:32 - AILO - INFO - [_index_knowledge_base:271] -   - yrker: 9519 documents
+2025-10-29 16:02:32 - AILO - INFO - [_index_knowledge_base:271] -   - utdanning: 40068 documents
+2025-10-29 16:02:32 - AILO - INFO - [_index_knowledge_base:271] -   - lønn: 50 documents
+2025-10-29 16:02:32 - AILO - INFO - [_index_knowledge_base:271] -   - læreplass: 11422 documents
+2025-10-29 16:02:32 - AILO - INFO - [_index_knowledge_base:271] -   - skole: 10597 documents
+2025-10-29 16:02:32 - AILO - INFO - [_index_knowledge_base:271] -   - arbeidsmarked: 8277 documents
+2025-10-29 16:02:32 - AILO - INFO - [_index_knowledge_base:272] - ============================================================

@@ -1,0 +1,586 @@
+[
+  {
+    "url": "https://api.utdanning.no/arbeidsmarkedskart/endring_arbeidsmarked",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/arbeidsmarkedskart/stedsvelger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/arbeidsmarkedskart/stillingsutlysning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/arbeidsmarkedskart/tidsserie",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/bedrift/{id}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/bedrifter_alle",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/bedrifter_godkjente",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/bedrifter_ikke_godkjente",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/bedrifter_m_lareplass",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/bedriftsliste",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/combinations",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/YFF",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/aarsverk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/antall_stillinger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/bedrifter_alle",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/bedrifter_godkjente",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/bedrifter_ikke_godkjente",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/bedrifter_m_lareplass",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/bedriftsinfo",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/bedriftsstorrelse",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/godkjenninger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/larling",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/larlinger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/larlinger_aarsverk_naringer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/larlinger_i_valgte_fag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/latefy",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/lateko",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/opplaring",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/opplaringskontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/sted",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/fagvelger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/garanti",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/garanti/garantier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/naringskodevelger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/navnesok",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/result",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/stedsvelger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ga4/paths",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ga4/views",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/jobbkompasset/forside",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/jobbkompasset/yrker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/karakterkalkulator/points",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/{nus_kode}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/styrk08",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/styrk08/{yrkeskode_styrk08}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/styrk98",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/styrk98/{styrk98_kode}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/legacy-lopet/lopet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/legacy-lopet/program",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/legacy-lopet/sted",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/legacy-lopet/utdanningsprogram",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/artikkel",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/artikkel/{nid}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/artikkel_kategori",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/faq",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/faq/{nid}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/faq_kategori",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/kalender",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/kalender/{nid}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/{programomradekode10}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/skoleliste",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/nav_export/programomraader",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/onet_by_occupation",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/onet_by_value",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/onet_by_yrke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/onet_types",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/yrker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/yrker_interesse",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/emne",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/innholdstype",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/language",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/nivaa",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/result",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/suggest",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/tilgjengelighet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/personalisering/malgruppe",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsmarked/i10",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsmarked/i11",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsmarked/i6",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsmarked/i7",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsmarked/i8",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsstyrker/i1",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsstyrker/i2",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsstyrker/i3",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsstyrker/i4i5",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/kompetansetilgang/i13i14i15",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/kompetansetilgang/i16",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/kompetansetilgang/i17",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/kompetansetilgang/i18",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/kompetansetilgang/i19i20i21i22",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/stedsvelger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/tilknytning/i24",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/tilknytning/i25i26",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/tilknytning/i27",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/tilknytning/i29",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/tilknytning/i30i31",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/videreutdanning/i23",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/arbeidsledighet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/arbeidsmarked",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/entrepenorskap",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/fellesstyrk98",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/interesser",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/lonn",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/main",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/stillinger-yrke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/suggest",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning-yrke-rr",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning2yrke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanningsniva",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/{uno_id}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke2utdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/search/facet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/search/result",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/search_logs",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/search_logs",
+    "method": "POST"
+  },
+  {
+    "url": "https://api.utdanning.no/search_logs/{id}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/search_logs/{id}",
+    "method": "PUT"
+  },
+  {
+    "url": "https://api.utdanning.no/search_logs/{id}",
+    "method": "DELETE"
+  },
+  {
+    "url": "https://api.utdanning.no/search_logs/{id}",
+    "method": "PATCH"
+  },
+  {
+    "url": "https://api.utdanning.no/studievelgeren/facet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/studievelgeren/result",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/utdanningsdata/fylke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/utdanningsdata/region",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/utdanningsdata/stedsvelger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/utdanningsdata/undervisningssted",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/veientilfagbrev/fag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/veientilfagbrev/fag_gruppe",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/veientilfagbrev/opsjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/veientilfagbrev/veier/1.3",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/veientilfagbrev/veier/1.3/{id}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/lop",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/{programomradekode10}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/skole",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/skole/{vilbli_org_id}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vov/fagkode_velger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/yrkearbeidsliv/larlinger-indikatorrapport",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/yrkearbeidsliv/opplaringskontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/yrkearbeidsliv/potensielle-bedrifter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/yrkearbeidsliv/potensielle-bedrifter-info",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/yrkearbeidsliv/potensielle-larebedrifter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/yrkearbeidsliv/potensielle-larebedrifter-info",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/yrkearbeidsliv/yrkeskategori",
+    "method": "GET"
+  }
+]

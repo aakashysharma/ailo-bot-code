@@ -1,0 +1,71 @@
+2025-10-29 16:04:16 - AILO - INFO - [_setup_logging:108] - ================================================================================
+2025-10-29 16:04:16 - AILO - INFO - [_setup_logging:109] - AILO Chatbot Logging System Initialized
+2025-10-29 16:04:16 - AILO - INFO - [_setup_logging:110] - ================================================================================
+2025-10-29 16:04:16 - AILO - INFO - [load_knowledge_base:164] - ============================================================
+2025-10-29 16:04:16 - AILO - INFO - [load_knowledge_base:165] - STARTING KNOWLEDGE BASE LOADING
+2025-10-29 16:04:16 - AILO - INFO - [load_knowledge_base:166] - ============================================================
+2025-10-29 16:04:16 - AILO - INFO - [load_knowledge_base:167] - Data directory: utdanning_data
+2025-10-29 16:04:16 - AILO - DEBUG - [load_knowledge_base:171] - Looking for vectorization dataset at: utdanning_data/processed/text_for_llm/vectorization_dataset.json
+2025-10-29 16:04:16 - AILO - INFO - [load_knowledge_base:175] - Vectorization dataset found, loading...
+2025-10-29 16:04:21 - AILO - INFO - [load_knowledge_base:180] - ✓ Successfully loaded 50845 documents into knowledge base
+2025-10-29 16:04:21 - AILO - INFO - [_index_knowledge_base:228] - Creating knowledge base index by categories...
+2025-10-29 16:04:21 - AILO - INFO - [_index_knowledge_base:269] - ✓ Knowledge base indexed by categories:
+2025-10-29 16:04:21 - AILO - INFO - [_index_knowledge_base:271] -   - yrker: 9519 documents
+2025-10-29 16:04:21 - AILO - INFO - [_index_knowledge_base:271] -   - utdanning: 40068 documents
+2025-10-29 16:04:21 - AILO - INFO - [_index_knowledge_base:271] -   - lønn: 50 documents
+2025-10-29 16:04:21 - AILO - INFO - [_index_knowledge_base:271] -   - læreplass: 11422 documents
+2025-10-29 16:04:21 - AILO - INFO - [_index_knowledge_base:271] -   - skole: 10597 documents
+2025-10-29 16:04:21 - AILO - INFO - [_index_knowledge_base:271] -   - arbeidsmarked: 8277 documents
+2025-10-29 16:04:21 - AILO - INFO - [_index_knowledge_base:272] - ============================================================
+2025-10-29 16:04:25 - AILO - INFO - [chat:586] - ================================================================================
+2025-10-29 16:04:25 - AILO - INFO - [chat:587] - NEW CHAT REQUEST
+2025-10-29 16:04:25 - AILO - INFO - [chat:588] - ================================================================================
+2025-10-29 16:04:25 - AILO - INFO - [chat:589] - User message: hi
+2025-10-29 16:04:25 - AILO - DEBUG - [chat:590] - Include context: True
+2025-10-29 16:04:25 - AILO - DEBUG - [chat:599] - Knowledge base loaded with 50845 documents
+2025-10-29 16:04:25 - AILO - INFO - [chat:602] - Preparing context from knowledge base...
+2025-10-29 16:04:25 - AILO - DEBUG - [_prepare_context:452] - Preparing context for user query...
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:285] - ============================================================
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:286] - KNOWLEDGE BASE SEARCH
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:287] - ============================================================
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:288] - Query: hi
+2025-10-29 16:04:25 - AILO - DEBUG - [search_knowledge_base:293] - Max results requested: 5
+2025-10-29 16:04:25 - AILO - DEBUG - [search_knowledge_base:300] - Extracted key terms: set()
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:304] - Question type identified: general
+2025-10-29 16:04:25 - AILO - DEBUG - [search_knowledge_base:306] - Searching through 50845 documents...
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:314] - Found 45057 documents with score > 0
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:320] - Returning top 5 results:
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:324] -   1. Score: 2.00 - 2 - Informasjon fra Sammenligning av yrker og utdannin
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:324] -   2. Score: 2.00 - 8 - Informasjon fra Sammenligning av yrker og utdannin
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:324] -   3. Score: 2.00 - 9 - Informasjon fra Sammenligning av yrker og utdannin
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:324] -   4. Score: 2.00 - 11 - Informasjon fra Arbeidsmarkedsdata og statistikk
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:324] -   5. Score: 2.00 - 12 - Informasjon fra Arbeidsmarkedsdata og statistikk
+2025-10-29 16:04:25 - AILO - INFO - [search_knowledge_base:326] - ============================================================
+2025-10-29 16:04:25 - AILO - INFO - [_prepare_context:459] - Building context from 5 relevant documents
+2025-10-29 16:04:25 - AILO - DEBUG - [_prepare_context:468] - Processing doc 1: Informasjon fra Sammenligning av yrker og utdannin... from sammenligning/lonn/arbeidstid-H/historie-true/sektor-P/uno/id-y/ingenior/enok
+2025-10-29 16:04:25 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/ingenior_i_energi_og_miljo_i_bygg
+2025-10-29 16:04:25 - AILO - DEBUG - [_prepare_context:468] - Processing doc 2: Informasjon fra Sammenligning av yrker og utdannin... from sammenligning/arbeidsledighet/uno/id-y/landbruk/mek
+2025-10-29 16:04:25 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/sammenligning/y/landbruk
+2025-10-29 16:04:25 - AILO - DEBUG - [_prepare_context:468] - Processing doc 3: Informasjon fra Sammenligning av yrker og utdannin... from sammenligning/lonn/arbeidstid-H/historie-true/sektor-A/uno/id-y/gravor
+2025-10-29 16:04:25 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/gravor
+2025-10-29 16:04:25 - AILO - DEBUG - [_prepare_context:468] - Processing doc 4: Informasjon fra Arbeidsmarkedsdata og statistikk... from arbeidsmarkedskart/stedsvelger/1
+2025-10-29 16:04:25 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/arbeidsmarked
+2025-10-29 16:04:25 - AILO - DEBUG - [_prepare_context:468] - Processing doc 5: Informasjon fra Arbeidsmarkedsdata og statistikk... from arbeidsmarkedskart/stedsvelger/2
+2025-10-29 16:04:25 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/arbeidsmarked
+2025-10-29 16:04:25 - AILO - INFO - [_prepare_context:513] - ✓ Context prepared: 2728 characters total
+2025-10-29 16:04:25 - AILO - DEBUG - [chat:605] - Context length: 2728 characters
+2025-10-29 16:04:25 - AILO - INFO - [chat:619] - Building message array for LLM...
+2025-10-29 16:04:25 - AILO - DEBUG - [chat:627] - Added system prompt
+2025-10-29 16:04:25 - AILO - DEBUG - [chat:634] - Added context to messages
+2025-10-29 16:04:25 - AILO - DEBUG - [chat:643] - Added source citation reminder
+2025-10-29 16:04:25 - AILO - DEBUG - [chat:660] - Added current user message
+2025-10-29 16:04:25 - AILO - INFO - [chat:662] - Total messages in API call: 4
+2025-10-29 16:04:25 - AILO - INFO - [chat:665] - Calling LM Studio API at http://localhost:1234/v1...
+2025-10-29 16:04:25 - AILO - DEBUG - [chat:674] - API Payload: model=gemma-3n-E4B-it-MLX-bf16, temperature=0.5, max_tokens=1500
+2025-10-29 16:04:39 - AILO - DEBUG - [chat:680] - API Response Status: 200
+2025-10-29 16:04:39 - AILO - INFO - [chat:686] - ✓ Successfully received response from LLM
+2025-10-29 16:04:39 - AILO - INFO - [chat:687] - Response length: 1207 characters
+2025-10-29 16:04:39 - AILO - DEBUG - [chat:688] - Assistant response: Hei! Jeg er AILO, din AI-drevne karriererådgiver. Jeg hjelper deg gjerne med å utforske utdannings- og karrieremuligheter i Norge. Hva lurer du på i dag? Er det noe spesifikt du tenker på, for eksempe...
+2025-10-29 16:04:39 - AILO - INFO - [chat:692] - Source citations found in response: 2
+2025-10-29 16:04:39 - AILO - DEBUG - [chat:707] - Conversation history now has 2 messages
+2025-10-29 16:04:39 - AILO - INFO - [chat:709] - ================================================================================
