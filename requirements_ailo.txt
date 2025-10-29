@@ -1,0 +1,19 @@
+# AILO - AI Learning and Opportunity Advisor
+# Required Python packages
+
+# Async HTTP client for API calls and LM Studio communication
+aiohttp>=3.9.0
+
+# Progress bars for data download
+tqdm>=4.66.0
+
+# Job scheduling for automatic updates
+schedule>=1.2.0
+
+# HTTP requests for setup checks
+requests>=2.31.0
+
+# Optional but recommended for better performance
+# Uncomment if needed:
+# ujson>=5.9.0  # Faster JSON processing
+# orjson>=3.9.0  # Even faster JSON (alternative to ujson)

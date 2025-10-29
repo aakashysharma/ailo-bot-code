@@ -1,0 +1,21 @@
+{
+  "lm_studio": {
+    "url": "http://localhost:1234/v1",
+    "model": "gemma-3n-E4B-it-MLX-bf16"
+  },
+  "data": {
+    "output_dir": "utdanning_data",
+    "url_list": "url_list.json"
+  },
+  "scheduler": {
+    "update_time": "00:00",
+    "enabled": true
+  },
+  "chatbot": {
+    "max_context_docs": 5,
+    "temperature": 0.5,
+    "max_tokens": 1500,
+    "strict_source_mode": true,
+    "require_citations": true
+  }
+}
