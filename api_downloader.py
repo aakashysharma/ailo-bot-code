@@ -524,6 +524,16 @@ class UtdanningAPIDownloader:
                         self.stats["successful_requests"] += 1
                         self.stats["total_data_size"] += len(str(data))
                         return data
+                    elif response.status == 422:
+                        # Log detailed 422 validation error with response body
+                        try:
+                            error_data = await response.json()
+                            self.logger.error(f"HTTP 422 Validation Error for {url}")
+                            self.logger.error(f"Response: {json.dumps(error_data, ensure_ascii=False)}")
+                        except:
+                            error_text = await response.text()
+                            self.logger.error(f"HTTP 422 Validation Error for {url}")
+                            self.logger.error(f"Response: {error_text}")
                     else:
                         self.logger.warning(f"HTTP {response.status} for {url}")
                         

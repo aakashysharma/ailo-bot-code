@@ -1,0 +1,7 @@
+{
+  "https://api.utdanning.no/ovttas/result?q=norsk": "https://api.utdanning.no/ovttas/result?q=norsk&lang=nb",
+  "https://api.utdanning.no/ovttas/suggest?q=nor": "https://api.utdanning.no/ovttas/suggest?q=nor&lang=nb",
+  "https://api.utdanning.no/search/facet?facet=type": "https://api.utdanning.no/search/facet?facet=hovedfasett",
+  "https://api.utdanning.no/search/facet?facet=fylke": "https://api.utdanning.no/search/facet?facet=omrade",
+  "https://api.utdanning.no/search/facet?facet=studieniva": "https://api.utdanning.no/search/facet?facet=niva"
+}

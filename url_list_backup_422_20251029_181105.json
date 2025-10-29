@@ -280,23 +280,31 @@
     "method": "GET"
   },
   {
-    "url": "https://api.utdanning.no/ovttas/emne?lang=nb&prefix=0|",
+    "url": "https://api.utdanning.no/ovttas/emne",
     "method": "GET"
   },
   {
-    "url": "https://api.utdanning.no/ovttas/innholdstype?lang=nb",
+    "url": "https://api.utdanning.no/ovttas/innholdstype",
     "method": "GET"
   },
   {
-    "url": "https://api.utdanning.no/ovttas/language?lang=nb",
+    "url": "https://api.utdanning.no/ovttas/language",
     "method": "GET"
   },
   {
-    "url": "https://api.utdanning.no/ovttas/nivaa?lang=nb",
+    "url": "https://api.utdanning.no/ovttas/nivaa",
     "method": "GET"
   },
   {
-    "url": "https://api.utdanning.no/ovttas/tilgjengelighet?lang=nb",
+    "url": "https://api.utdanning.no/ovttas/result",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/suggest",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/tilgjengelighet",
     "method": "GET"
   },
   {
@@ -536,6 +544,10 @@
     "method": "GET"
   },
   {
+    "url": "https://api.utdanning.no/vov/fagkode_velger",
+    "method": "GET"
+  },
+  {
     "url": "https://api.utdanning.no/yrkearbeidsliv/larlinger-indikatorrapport",
     "method": "GET"
   },
@@ -561,6 +573,10 @@
   },
   {
     "url": "https://api.utdanning.no/yrkearbeidsliv/yrkeskategori",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke",
     "method": "GET"
   },
   {
@@ -3753,58 +3769,6 @@
   },
   {
     "url": "https://api.utdanning.no/sammenligning/utdanning/u_yrkessjaforfag",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=hovedfasett",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=innholdstype",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=omrade",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=utdanningsniva",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=utdanningsprogram",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=interesse",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=organisasjon",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=fagomrade",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=niva",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=studieform",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=fagretning",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=sektor",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search/facet?facet=artikkeltype",
     "method": "GET"
   }
 ]
