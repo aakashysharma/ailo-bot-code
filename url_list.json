@@ -444,14 +444,6 @@
     "method": "GET"
   },
   {
-    "url": "https://api.utdanning.no/sammenligning/yrke",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/sammenligning/yrke/{uno_id}",
-    "method": "GET"
-  },
-  {
     "url": "https://api.utdanning.no/sammenligning/yrke2utdanning",
     "method": "GET"
   },
@@ -581,6 +573,3202 @@
   },
   {
     "url": "https://api.utdanning.no/yrkearbeidsliv/yrkeskategori",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_adjunkt",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_advokat",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_advokatassistent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_advokatsekretar",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_agronom",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_aksjemegler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_aktivitor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_aktuar",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_allmennlege",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ambulansearbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_anestesilege",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_anestesisykepleier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_anleggsgartner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_anleggsmaskin",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_anleggsmaskinmek",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_anleggsrorlegger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ansatt_forsvaret",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_apoteker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_arbeidsleder_industr",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_arealplanlegger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_arkeolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_arkitekt",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_arkivar",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_arrangement",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_asfaltor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_astronom",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_audiograf",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_automatiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_avioniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_avisbud",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_avloser",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_badevakt",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_baker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_banemontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bank_rad",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_barista",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_barne_ungdomsarb",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_barnehage_ass",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_barnehagelarer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_barnehagestyrer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_barnevernspedagog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_betongfagarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bibliotekar",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bilklargjorer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_billakkerer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_billedkunstner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bilmekaniker_lett",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bilmekaniker_tung",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bilskadereparator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bioingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_biokjemiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_biolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bioteknolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_blikkenslager",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_blyglasshandverker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bonde",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bore_vedlikehold",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_branningenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_brannkonstabel",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bronn",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bronn_el",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bronn_kveil",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bronn_mek",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bunadtilvirker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bussjafor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_butikkmedarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_butikksjef",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_butikkslakter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bygg_hjelpearb",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bygganleggleder",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_byggingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_byrakrat",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_chassispabygger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_cncoperator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_dansepedagog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_danser",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_dataelektroniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_diakon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_diplomat",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_dirigent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_dommer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_dramaturg",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_driftsoperator_idrett",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_dykker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_dyrepasser",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_dyrepleier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_eiendomsmegler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_elektriker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_elektroingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_elektroreparator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_energimontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_energioperator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ergoterapeut",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ernaringsfys",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_etterforsker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_faglarer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_farmasoyt",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_feier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fengselsbetjent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_filosof",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_finansanalytiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_finmekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fiskefor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fiskehelsebiolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fiskeoppdretter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fisker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fiskered",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fjell_bergverk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_flymekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_flymotormekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_flystrukturmekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_flysystemmek",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_flytekniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_forerhundtrener",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_forfatter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_forlagsmedarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_forsikringsradg",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_forsker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_forsteamanuensis",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fotballspiller",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fotballtrener",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fotograf",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fotojournalist",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fotterapeut",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_frisor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fuoperator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fysiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_fysioterapeut",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_gartner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_garver",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_geofysiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_geograf",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_geolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_gipsmaker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_gjenvinningsoperator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_glassblaser",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_glassfagarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_grafisk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_grafisk_designer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_gravferdskonsulent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_grunnskolelarer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_guide",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_gullsmed",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_handvever",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_havbunnsinstallator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_havforsker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_heismontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_helpdeskmedarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_helsefagarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_helsesekretar",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_helsesoster",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_herreskredder",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_hestefaglart",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_historiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_hjelpearbeider_industri",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_hjemmehjelp",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_hmsingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_hotelldirektor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_hotellmedarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_hovmester",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_hudlege",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_hudpleier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_idrettskonsulent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_idrettstrener",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_idrettsutover",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ikt_service",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_illustrator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ind_design",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ind_maler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ind_matprod",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ind_mekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ind_montor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ind_overflate",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ind_rorlegger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ind_snekker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ind_tapet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_industritekstil",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_innkjoper",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_inspisient",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_institusjonskokk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_instrumentalpedagog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_intensivsykepleier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_interiorkonsulent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_isolator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_itadministrator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_itkonsulent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_itsjef",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_jobbveileder",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_jordmor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_journalist",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_jurist",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kabin_fly",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kantinemedarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kaptein",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kirketjener",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kirurg",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kjemiingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kjemiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kjeveortoped",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kjokkensjef",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kjole_draktsyer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kjottskjarer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_klesdesigner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_klinisk_sosionom",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kokk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kom_radgiver",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_komponist",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_komposittbatbygger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_konditor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_konduktor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_konservator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_koreograf",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kostymesyer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kranforer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kulde_mont",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kulturviter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kundeansvarlig_salg",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kunst_kulturformidler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kunsthandverker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kunsthistoriker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kurator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kystskipper",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_laborant",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_landbruk_mek",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_landbrukssjef",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_landmaler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_landskapsarkitekt",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_lasesmed",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_leder",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_lege",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_legemiddelkons",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_lektor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_limtreprod",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_litteraturviter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_logistikkoperator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_logoped",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_lokomotivforer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_los",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_lydtekniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_lystekniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_maler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_marin_bioteknolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_marinbiolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_maritim_el",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_markedsforer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_markedssjef",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_maskiningenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_maskinist",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_maskinsjef",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_maskor_parykk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_matematiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_matros",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_matteknolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_mediedesigner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_mediegrafiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_megler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_mekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_menighetspedagog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_meteorolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_mikrobiolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_miljoarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_miljoradgiver",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_miljoterapeut",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_misjonar",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_mobeldesigner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_mobelsnekker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_mobeltapetserer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_motormekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_murer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_museumsformidler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_musiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_musikkpedagog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_naringsmiddeltekinker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_naturforvalter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_nautisk_instrument",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ndtkontrollor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_negledesigner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_nettverksadm",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_okonom",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_okonomikonsulent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_okonomisjef",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_optiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_organistkantor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ortopediingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ortopeditekniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_oversetter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_parkering",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_personalradgiver",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_personalsjef",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_personlig_trener",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_petroleum_ing",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_pilot",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_planteinspektor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_plastmekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_platearbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_pleiemedarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_politibetjent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_politijurist",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_politiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_polymerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_portor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_postbud",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ppradgiver",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_prest",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_prod_elektro",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_produksjonstekniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_professor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_prosessingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_prosesstekniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_psykiater",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_psykolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_radgiver_off",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_radiograf",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_regissor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_regnskapsforer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_reindriftsutover",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_reiseleder",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_reiseliv",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_rektorskoleleder",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_rekvisitor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_renholdsoperator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_resepsjonist",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_reservedelseksp",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_revisor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ridelarer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_rokter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_romteknolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_rorlegger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_saksbehandler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_salgssjef",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_samfunnsgeograf",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_samfunnsokonom",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sanger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sekretar",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_serigraf",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_servitor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sfo",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_signalmontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sivilingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sjafor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sjomathandler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sjomatprod",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_skadedyrbekjemper",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_skipsmegler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_skipsmotormekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_skogsoperator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_skoleassistent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_skuespiller",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_slakter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_smed",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sminkor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_solvsmed",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sosialantropolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sosiolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sosionom",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_speditor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_spesialpedagog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_spillprogrammerer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sportsdommer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_statistiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_statsviter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_steinfagarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_stillasbygger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_strikkehandverker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_styrmann",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sveiser",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sykepleier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_systemarkitekt",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_systemutvikler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_takstmann",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_taktekker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_tannhelsesekretar",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_tannlege",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_tannpleier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_tavlemontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_taxisjafor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_tegnspraktolk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_teknisk_tegner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_tekstforfatter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_tekstilrenser",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_telemontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_termoplastfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_tolk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_toller",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_tomrer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_trafikklarer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_tredreier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_trelast_limtre_operator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_trelastfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_treskjarer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_trevaresnekker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_trikkeforer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_tvfotograf",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_urmaker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_utmarkskonsulent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_utstillingsdesigner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_vaktmester",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_vaskerioperator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_vei_anlegg_arb",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_vekter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ventilasjonstekniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_verktoymaker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_vernepleier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_veterinar",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_vikler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_vinkelner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_yrkessjafor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_aktivitorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_akvakultur",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_akvakulturfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_akvamedisin",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_aluminiumkont",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ambulansefag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_animasjon_spill_3d",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_anleggsgartnerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_anleggsmaskinforerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_anleggsmaskinmek",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_apotekteknikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_arkeologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_arkitektur",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_arkiv_dokumentasjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_asfaltfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_audiografutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_automatisering",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_automatiseringsfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_avionikerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_banemontorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_barne_ungdomsarbeid",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_barnehagelarer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_barnevern",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_barsel",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_betongfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bibliotekarutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_billakkererfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bilmek_lett",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bilmek_tung",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bilpleiefaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bilsalmakerfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bilskadefag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bilteknikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bim_tegner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bioingeniorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_biologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_blikkenslager",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_blomsterdekoratorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_blyglasshandverkerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bokkerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_boreoperatorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_borsemakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_brannforebyggerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_brannsikkerhet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bronnfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bronnfag_el",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bronnfag_havbunn",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bronnfag_komp",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bronnfag_kveil",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bronnfag_mek",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bronnfag_sement",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bunadtilvirkerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_buntmakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_by_og_regionplanlegging",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bygg",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_bygg_anlegg",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_byggdrifterfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_byggingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_byggmontasjefaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_chassispabyggerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_cncmaskineringsfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_dans",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_dataelektronikerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_dataingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_datasikkerhet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_datateknikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_dekksoffiser",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_design",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_diakoni",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_dimensjonskont",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_droneoperatorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_duodji_metall",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_duodji_skinn",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_dyrefaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_dyrepleie",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_eiendomsmegling",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_eksponeringsdesign",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_eldreomsorg",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_elektrikerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_elektro",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_elektrofag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_elektroreparatorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_energi_miljo",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_energimontorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_energioperatorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_entreprenorskap",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ergoterapi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ernaeringskokk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ernaring",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_exphil",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_farmasi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_fengselsbetjent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ferskvannsbiologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ferskvarehandlerfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_filigranssolvsmedfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_film_tvproduksjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_filosofi_etikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_finans",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_finmekanikerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_fiske_fangst",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_fiske_havbruk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_fjell_bergverksfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_flymotormekanikerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_flystrukturmekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_flysystemmek",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_flytekniske_fag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_folkehelsearbeid",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_forfatterutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_forkurs",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_forretningsjus_uh",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_fotofag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_fotografi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_fotterapi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_frisorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_fysikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_fysioterapi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_fysioterapi_evu",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_gartnerfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_gartneri_hagebruk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_geofag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_gipsmakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_gjenvinningsfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_gjortlerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_glassfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_glasshandverkerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_grafisk_design",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_grafisk_design_uh",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_grafisk_prod",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_gravorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_grunnskolelarer_1_7",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_grunnskolelarer_5_10",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_gullsmedfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_handbokbinderfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_handelmarkedsf_uh",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_handveverfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_havbruksteknikkfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_havteknologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_heismontorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_helse_sosial_evu",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_helseadmin",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_helseadministrasjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_helsearbeiderfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_helsefagfs",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_helsesekretar",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_helsesosterutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_herreskredderfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_hestefag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_hestefag_fagskole",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_historie",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_hjulutrustningsfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_hotelledelse",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_hovslagerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_hr_og_personalledelse",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_hudpleie",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_hustdyrfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_idrettsfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ikt",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ind_design",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ind_maler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ind_matprod",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ind_mekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ind_montor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ind_oppmaling",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ind_overflate",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ind_rorlegger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ind_snekker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ind_tapet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_industritekstilfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_informatikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_innholdsproduksjonsfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_interaksjonsdesign",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_interior_dekorator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_interior_vg",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_interiorfagskole",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_isolatorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_it_webutvikling",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_itdriftsfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_itutviklerfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_jordbruk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_jordmorutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_journalistikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_juss",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_karriereradgiving",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kem_fag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_keramikerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kjemi_bioteknologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kjemiprosessfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kjole_draktsyerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kjonnsstudier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kjottskjarerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kokkfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_komm_medievit",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_komposittbat",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_konditorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kostymesyerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kran_lofteoperasjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kreftomsorg",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kriminologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kristen",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kristendom_religion",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kulde_og_varmepumpeteknikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kuldemontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kulturutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kunst_kunsthandverk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kunstfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kunsthistorie",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_kurvmakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_laboratoriefag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_landbruk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_landbruksmaskin",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_larerutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_lasesmedfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ledelse",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ledelse_fagskole",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_lektorutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_litteraturvitenskap",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_logistikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_logistikkfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_logistikkfs",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_luftfart",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_lyd_lysdesign",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_lyd_og_musikkpoduksjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_malerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_maritim_elektrikerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_markedsforingsfagskole",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_markedsforinguh",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_mask_parykkmaker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_maskinteknikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_maskinteknisk_drift",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_matematikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_materialteknologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_matogdrikke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_matrosfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_matteknikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_matteknologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_mba",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_mediedesign",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_medieproduksjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_medieteknikkfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_medisin",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_medisinske_fag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_mekaniske_fag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_mekatronikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_militare_fag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_miljo_studier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_miljoarbeid",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_mobelsnekkerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_mobeltapetsererfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_modellbyggerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_modistfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_mote_industridesign",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_motormannfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_motormekanikerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_motorsykkelfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_murerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_musikkterapi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_naturbruk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_naturforvaltning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_navigasjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ndtkontrollorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ok_adm",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_okadm_evu",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_okadm_ledelse",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_omradestudier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_oppvekstfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_optikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_optronikerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_orgelbyggerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ortopediteknikkfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_osteuropeiske_sprak",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_paramedisin",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_pedagogikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_petroleum",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_plantevitenskap",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_plastfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_platearbeiderfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_politiutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_polsemakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ppu",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_prodelektroniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_produksjonstek",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_prosessteknikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_psykisk_helse_evu",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_psykisk_helsearbeid",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_psykologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_psykososialt_arbeid",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_radiografi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_radiografi_evu",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_regnskap_revisjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_rehabilitering",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_reindriftsfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_reiselivfagskole",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_reiselivsfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_reiselivuh",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_religion",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_renholdsoperatorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_reservedelsfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_romteknologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_rorleggerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_rovoperator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_salgsfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_salmakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_samfunnsfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_samfunnsgeografi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_samfunnsokonomi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_samfunnsplanlegging",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_samfunnssikkerhet_hms",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sang_musikkutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_seilmakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_serigrafifag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_serviceogadmin",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_servitorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_shipping",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_signalmontorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sikkerhetsfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sivilingenior",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sivilokonomutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sjomatproduksjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_skogbruk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_skogfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_skomakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_skuespill",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_slakterfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_smedfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sminke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_snekkerfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_solvsmedfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sosial_evu",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sosialantropologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sosiologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sosionom",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_spesped",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sprak_ikkeeuropeisk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sprak_klassiske",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sprak_vesteuropeisk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sprakutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sprakutdanninger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sprakvitenskap",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_statistikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_statsvitenskap",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_steinfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_stillasbyggerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_strikkefag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sveisefag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sveisetknikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sykepleie",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_sykepleie_evu",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_taksidermistfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_taktekkerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_tannhelsesekretar",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_tannlege",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_tannpleie",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_tannteknikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_tavlemontorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_teater_drama",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_tegnsprak_tolking",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_tekstildesign",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_tekstilrensfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_telemontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_teologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_terapi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_terapi_fs",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_tip",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_togelektrikerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_tollerutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_tomrerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_trafikkflyger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_trafikklarer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_trebatbyggerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_tredreierfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_trelast",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_treskjarerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_truckoglift",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_urmakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_utovende_musikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_utviklingsstudier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_vaskerifag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_vei_anleggsfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_veidrift",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_ventilasjonsteknikkfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_verktoymakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_vernepleie",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_veterinarutdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_viklerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_visuell_kom",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_yrkesfaglarer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning/u_yrkessjaforfag",
     "method": "GET"
   }
 ]
