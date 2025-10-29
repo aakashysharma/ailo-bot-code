@@ -1,0 +1,2110 @@
+[
+  {
+    "url": "https://api.utdanning.no/arbeidsmarkedskart/endring_arbeidsmarked",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/arbeidsmarkedskart/stedsvelger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/arbeidsmarkedskart/stillingsutlysning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/arbeidsmarkedskart/tidsserie",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/bedrifter_alle",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/bedrifter_godkjente",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/bedrifter_ikke_godkjente",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/bedrifter_m_lareplass",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/bedriftsliste",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/combinations",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/YFF",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/aarsverk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/antall_stillinger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/bedrifter_alle",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/bedrifter_godkjente",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/bedrifter_ikke_godkjente",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/bedrifter_m_lareplass",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/bedriftsinfo",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/bedriftsstorrelse",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/godkjenninger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/larling",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/larlinger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/larlinger_aarsverk_naringer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/larlinger_i_valgte_fag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/latefy",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/lateko",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/opplaring",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/opplaringskontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/facet/sted",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/fagvelger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/garanti",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/garanti/garantier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/naringskodevelger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/navnesok",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/result",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/finnlarebedrift/stedsvelger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ga4/paths",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ga4/views",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/jobbkompasset/forside",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/jobbkompasset/yrker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/karakterkalkulator/points",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/641143",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/639907",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/652209",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/641907",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/651303",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/655105",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/616603",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/652101",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/455999",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/651201",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/457101",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/641908",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/658299",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/642207",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/641157",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/6519",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/524102",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/6441",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/641901",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/638199",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/644203",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/644105",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/655305",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/455146",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/653",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/655221",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/655113",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/658102",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/455223",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/524202",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/651910",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/6511",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/651425",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/652103",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/516428",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/656901",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/6381",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/455299",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/455312",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/457",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/641152",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/455206",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/457103",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/642107",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/651299",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/641199",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/533199",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/5259",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/642212",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/642902",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/525199",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/455226",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/644104",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/644110",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/638101",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/651418",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/641121",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/6569",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/5242",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/611612",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/655199",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/455230",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/616412",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/652215",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/641127",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/642999",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/644102",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/616411",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/641144",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/651399",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/516502",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/5236",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/455225",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/455208",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/656399",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/642299",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/622130",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/657905",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/641117",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/6229",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/516503",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/457105",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/616410",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/643199",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/655107",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/644106",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/657904",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/654127",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/619",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/455237",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/652102",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/649903",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/5169",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/651417",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/516909",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/455210",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/651908",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/654119",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/651423",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/nus/616505",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/styrk08",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/styrk98",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/kategorisystemer/styrk98/{styrk98_kode}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/legacy-lopet/lopet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/legacy-lopet/program",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/legacy-lopet/sted",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/legacy-lopet/utdanningsprogram",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/artikkel",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/artikkel/{nid}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/artikkel_kategori",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/faq",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/faq/{nid}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/faq_kategori",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/kalender",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/kalender/{nid}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/ELDEL2P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/SRSRL2--EP",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/BABAT1P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/IDIDR3--J-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/RMMPR2--SF",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/BATLT3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPKJP3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/DTSTH2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPVER3P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/FDFRI2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/HSHSF1N-B-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/DTORG3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/BABET3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPTIP1----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/IDRET1--N-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/ELTEL3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/DTGUL3F2--",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/BARLF3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/ELELE2N---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/NANAB3--SF",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/DTTRB3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/NAGAR3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STREA2TY--",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/BAANG3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/DTBLY3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STSSA2--SS",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/IDRET1----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPBLA3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/IDRET1--LS",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/DTGUL3F1--",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/HSHSF1N-H-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/HSHUD3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/MEMOK3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/HSAKT3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/PBPBY3N---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STSSA3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/IDRET1--AR",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/NANAB1--HK",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/KDKDA1----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/DTURM3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/IDIDR3--C-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/BAKEM2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/DTGBF3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/RMIMP3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/IDIDR3--O-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/ELAUT4P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/BAARL3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/IDRET1--M-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/BATMF2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/BABMO2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPPIN2N---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPIRL3P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/ELAUT3P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPPLA3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/ELAVI3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STUSP1--EP",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPTSR3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/IMIKM1HT-1",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/MDMUS3--J-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/ELMEL3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/NAHDF2--HK",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/RMBAK2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPIRL3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/HSORT3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STUSP1B---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STREA2--T-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPALU3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/SRSRL2N---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/NANAB1--SO",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STREA2--N-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/PBPBY4----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STUSP1--X-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/NANAB1N-D-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STSSA3--EP",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/IMITD3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/FDBLD3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPPRT3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPIME3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/ELDEL2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/ELELE1N-AU",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPMOB3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/DTDGH2N---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STUSP1Z---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/IDIDR2--M-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STREA2RS--",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/FDBLD2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/NAAKV3P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPIMO3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STUSP1--SL",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/BAROF3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/BASTE3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPBOR3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/STSSA3--SL",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/KDKDA3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/RMSLF3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/PBPBY4YK3D",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/NADYR3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/TPGVF3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/HSAMB3P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/programomrade/DTTKS3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/linje/skoleliste",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/nav_export/programomraader",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/onet_by_occupation",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/onet_by_value",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/onet_by_yrke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/onet_types",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/yrker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/onet/yrker_interesse",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/emne",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/innholdstype",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/language",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/nivaa",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/result",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/suggest",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/ovttas/tilgjengelighet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsmarked/i10",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsmarked/i11",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsmarked/i6",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsmarked/i7",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/arbeidsmarked/i8",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/kompetansetilgang/i13i14i15",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/kompetansetilgang/i16",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/kompetansetilgang/i17",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/kompetansetilgang/i18",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/kompetansetilgang/i19i20i21i22",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/stedsvelger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/tilknytning/i24",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/tilknytning/i25i26",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/tilknytning/i27",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/tilknytning/i29",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/tilknytning/i30i31",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/regionalkompetanse/videreutdanning/i23",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/arbeidsledighet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/arbeidsmarked",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/entrepenorskap",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/fellesstyrk98",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/interesser",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/lonn",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/main",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/stillinger-yrke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/suggest",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning-yrke-rr",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanning2yrke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/utdanningsniva",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_optikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_trafikklarer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bilmekaniker_tung",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_finans",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_logistikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_logistikkfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_renholdsoperatorfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_skuespill",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_helsefagfs",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_landskapsarkitekt",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_butikkmedarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_psykolog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_fiske_fangst",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_anestesisykepleier",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_sosial_evu",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_elektrikerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_planteinspektor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_avioniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_astronom",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_lyd_og_musikkpoduksjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_hestefag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_buntmakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_logistikkoperator",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_institusjonskokk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bore_vedlikehold",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_exphil",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_film_tvproduksjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_arkiv_dokumentasjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_forlagsmedarbeider",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_barnevernspedagog",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_bronnfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_landbruk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_garver",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_kjeveortoped",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_produksjonstekniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_ikt",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_bilmek_lett",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_tekstildesign",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_yrkessjafor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_salmakerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_trafikklarer",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_sosialantropologi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_modistfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_mobeldesigner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_akvakulturfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_landbrukssjef",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_religion",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_idrettskonsulent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_teater_drama",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_radiografi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_markedsforingsfagskole",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_energi_miljo",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_laboratoriefag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_flytekniske_fag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_elektriker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_flystrukturmekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_historie",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_snekkerfaget",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_takstmann",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_psykososialt_arbeid",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_mobelsnekkerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bonde",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_leder",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_tvfotograf",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_forerhundtrener",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_helsearbeiderfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_havforsker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_sikkerhetsfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_veidrift",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_plastmekaniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_nettverksadm",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_samfunnsgeografi",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_taktekkerfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_statistiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_itkonsulent",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_yrkessjaforfag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_danser",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_naturforvaltning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_flytekniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sjomathandler",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_mediedesign",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_tannteknikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bronn_el",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_parkering",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_helsesoster",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_prest",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_bussjafor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_komposittbatbygger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_optiker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_teknisk_tegner",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_sosionom",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_informatikk",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_audiograf",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_radiografi_evu",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_mba",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_radiograf",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_forkurs",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/y_ortopeditekniker",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_komm_medievit",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke/u_truckoglift",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/sammenligning/yrke2utdanning",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/search/facet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/search/result",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/studievelgeren/facet",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/studievelgeren/result",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/utdanningsdata/fylke",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/utdanningsdata/region",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/utdanningsdata/stedsvelger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/utdanningsdata/undervisningssted",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/veientilfagbrev/fag",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/veientilfagbrev/fag_gruppe",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/veientilfagbrev/opsjon",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/veientilfagbrev/veier/1.3",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/veientilfagbrev/veier/1.3/{id}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/lop",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/ELDEL2P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/SRSRL2--EP",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/BABAT1P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/IDIDR3--J-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/RMMPR2--SF",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/BATLT3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPKJP3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/DTSTH2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPVER3P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/FDFRI2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/HSHSF1N-B-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/DTORG3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/BABET3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPTIP1----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/IDRET1--N-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/ELTEL3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/DTGUL3F2--",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/BARLF3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/ELELE2N---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/NANAB3--SF",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/DTTRB3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/NAGAR3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STREA2TY--",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/BAANG3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/DTBLY3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STSSA2--SS",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/IDRET1----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPBLA3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/IDRET1--LS",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/DTGUL3F1--",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/HSHSF1N-H-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/HSHUD3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/MEMOK3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/HSAKT3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/PBPBY3N---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STSSA3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/IDRET1--AR",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/NANAB1--HK",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/KDKDA1----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/DTURM3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/IDIDR3--C-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/BAKEM2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/DTGBF3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/RMIMP3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/IDIDR3--O-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/ELAUT4P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/BAARL3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/IDRET1--M-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/BATMF2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/BABMO2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPPIN2N---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPIRL3P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/ELAUT3P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPPLA3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/ELAVI3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STUSP1--EP",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPTSR3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/IMIKM1HT-1",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/MDMUS3--J-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/ELMEL3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/NAHDF2--HK",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/RMBAK2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPIRL3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/HSORT3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STUSP1B---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STREA2--T-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPALU3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/SRSRL2N---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/NANAB1--SO",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STREA2--N-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/PBPBY4----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STUSP1--X-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/NANAB1N-D-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STSSA3--EP",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/IMITD3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/FDBLD3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPPRT3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPIME3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/ELDEL2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/ELELE1N-AU",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPMOB3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/DTDGH2N---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STUSP1Z---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/IDIDR2--M-",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STREA2RS--",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/FDBLD2----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/NAAKV3P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPIMO3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STUSP1--SL",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/BAROF3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/BASTE3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPBOR3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/STSSA3--SL",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/KDKDA3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/RMSLF3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/PBPBY4YK3D",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/NADYR3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/TPGVF3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/HSAMB3P---",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/programomrade_info/DTTKS3----",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/skole",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vgs/skole/{vilbli_org_id}",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/vov/fagkode_velger",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/yrkearbeidsliv/larlinger-indikatorrapport",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/yrkearbeidsliv/opplaringskontor",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/yrkearbeidsliv/potensielle-bedrifter",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/yrkearbeidsliv/potensielle-bedrifter-info",
+    "method": "GET"
+  },
+  {
+    "url": "https://api.utdanning.no/yrkearbeidsliv/yrkeskategori",
+    "method": "GET"
+  }
+]
