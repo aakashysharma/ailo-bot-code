@@ -371,19 +371,24 @@ class AILOChatbot:
                        full_query: str, question_type: str) -> float:
         """Score a document's relevance to the query."""
         score = 0.0
+        score_breakdown = []  # Track scoring decisions for logging
         
         text = doc.get('text', '').lower()
         title = doc.get('title', '').lower()
         source = doc.get('source_endpoint', '').lower()
+        doc_id = doc.get('id', 'unknown')
         
         # Title matches are highly valuable
         for term in key_terms:
             if term in title:
                 score += 10
+                score_breakdown.append(f"title_match({term}): +10")
             if term in text:
                 # Count occurrences but with diminishing returns
                 occurrences = text.count(term)
-                score += min(occurrences, 5)  # Cap at 5
+                points = min(occurrences, 5)
+                score += points
+                score_breakdown.append(f"text_match({term}): +{points}")
         
         # Boost based on question type matching
         type_keywords = {
@@ -400,14 +405,31 @@ class AILOChatbot:
             for keyword in type_keywords[question_type]:
                 if keyword in source or keyword in title:
                     score += 8
+                    score_breakdown.append(f"type_match_source/title({keyword}): +8")
                 if keyword in text:
                     score += 2
+                    score_breakdown.append(f"type_match_text({keyword}): +2")
         
         # Boost for endpoint relevance
-        if any(term in source for term in key_terms):
+        endpoint_matches = [term for term in key_terms if term in source]
+        if endpoint_matches:
             score += 5
+            score_breakdown.append(f"endpoint_relevance({','.join(endpoint_matches)}): +5")
         
         # Prefer documents with substantial content
+        content_length = len(text)
+        if 100 < content_length < 2000:
+            score += 2
+            score_breakdown.append("content_length(optimal): +2")
+        elif content_length >= 2000:
+            score += 1
+            score_breakdown.append("content_length(long): +1")
+        
+        # Log scoring if score is significant
+        if score > 5:
+            self.logger.debug(f"Doc '{doc_id}' scored {score:.2f}: {', '.join(score_breakdown[:3])}...")
+        
+        return score
         content_length = len(text)
         if 100 < content_length < 2000:
             score += 2
@@ -699,8 +721,9 @@ class AILOChatbot:
     
     def clear_conversation(self):
         """Clear conversation history."""
+        prev_count = len(self.conversation_history)
         self.conversation_history = []
-        self.logger.info("Conversation history cleared")
+        self.logger.info(f"Conversation history cleared ({prev_count} messages removed)")
     
     def save_conversation(self, filename: str):
         """
@@ -709,16 +732,20 @@ class AILOChatbot:
         Args:
             filename: Output filename
         """
+        self.logger.info(f"Saving conversation to {filename}...")
         try:
             output_path = Path(filename)
             conversations = [asdict(msg) for msg in self.conversation_history]
             
+            self.logger.debug(f"Serializing {len(conversations)} messages")
+            
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(conversations, f, ensure_ascii=False, indent=2)
             
-            self.logger.info(f"Conversation saved to {output_path}")
+            file_size = output_path.stat().st_size
+            self.logger.info(f"✓ Conversation saved to {output_path} ({file_size} bytes)")
         except Exception as e:
-            self.logger.error(f"Error saving conversation: {e}")
+            self.logger.error(f"✗ Error saving conversation: {e}", exc_info=True)
     
     async def test_connection(self) -> bool:
         """
@@ -727,9 +754,14 @@ class AILOChatbot:
         Returns:
             True if connection successful
         """
+        self.logger.info("Testing connection to LM Studio server...")
+        self.logger.debug(f"Server URL: {self.lm_studio_url}")
+        
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(f"{self.lm_studio_url}/models") as response:
+                    self.logger.debug(f"Response status: {response.status}")
+                    
                     if response.status == 200:
                         models = await response.json()
                         self.logger.info(f"✅ Connected to LM Studio server")
@@ -738,12 +770,13 @@ class AILOChatbot:
                     else:
                         self.logger.error(f"❌ Server returned status {response.status}")
                         return False
-        except aiohttp.ClientConnectorError:
+        except aiohttp.ClientConnectorError as e:
             self.logger.error("❌ Could not connect to LM Studio server at " + self.lm_studio_url)
             self.logger.error("   Make sure LM Studio is running and the server is started")
+            self.logger.debug(f"Connection error details: {e}")
             return False
         except Exception as e:
-            self.logger.error(f"❌ Connection test failed: {e}")
+            self.logger.error(f"❌ Connection test failed: {e}", exc_info=True)
             return False
 
 
@@ -756,16 +789,20 @@ async def interactive_chat():
     print()
     
     # Initialize AILO
+    print("Initializing AILO chatbot...")
     ailo = AILOChatbot()
+    ailo.logger.info("Interactive chat session started")
     
     # Test connection
     print("Testing connection to LM Studio server...")
+    ailo.logger.info("Testing LM Studio connection...")
     if not await ailo.test_connection():
         print("\n⚠️  Could not connect to LM Studio!")
         print("Please ensure:")
         print("  1. LM Studio is running")
         print("  2. Local server is started in LM Studio")
         print("  3. Server is running on http://localhost:1234")
+        ailo.logger.error("Failed to connect to LM Studio - exiting interactive mode")
         return
     
     # Load knowledge base
@@ -775,9 +812,11 @@ async def interactive_chat():
     if not ailo.knowledge_base:
         print("\n⚠️  No knowledge base loaded!")
         print("Please run the data pipeline first: python main.py")
+        ailo.logger.error("No knowledge base loaded - exiting interactive mode")
         return
     
     print(f"\n✅ Ready! Knowledge base loaded with {len(ailo.knowledge_base)} documents")
+    ailo.logger.info(f"Interactive chat ready with {len(ailo.knowledge_base)} documents")
     print("\nCommands:")
     print("  'exit' or 'quit' - End conversation")
     print("  'clear' - Clear conversation history")
@@ -786,6 +825,7 @@ async def interactive_chat():
     print()
     
     # Chat loop
+    interaction_count = 0
     while True:
         try:
             user_input = input("Du: ").strip()
@@ -793,11 +833,17 @@ async def interactive_chat():
             if not user_input:
                 continue
             
+            interaction_count += 1
+            ailo.logger.info(f"--- Interaction #{interaction_count} ---")
+            
             if user_input.lower() in ['exit', 'quit', 'avslutt']:
+                ailo.logger.info("User requested exit")
                 print("\n👋 Takk for praten! Lykke til med utdannings- og karrierevalget!")
+                ailo.logger.info(f"Interactive session ended after {interaction_count} interactions")
                 break
             
             if user_input.lower() == 'clear':
+                ailo.logger.info("User requested to clear conversation history")
                 ailo.clear_conversation()
                 print("✅ Samtalehistorikk tømt\n")
                 continue
@@ -805,26 +851,44 @@ async def interactive_chat():
             if user_input.lower() == 'save':
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
                 filename = f"ailo_conversation_{timestamp}.json"
+                ailo.logger.info(f"User requested to save conversation to {filename}")
                 ailo.save_conversation(filename)
                 print(f"✅ Samtale lagret til {filename}\n")
                 continue
             
             # Get response from AILO
             print("\nAILO: ", end="", flush=True)
+            ailo.logger.info(f"Processing user input: {user_input[:100]}...")
             response = await ailo.chat(user_input)
             print(response)
             print()
+            ailo.logger.info("Response delivered to user")
             
         except KeyboardInterrupt:
+            ailo.logger.warning("User interrupted with Ctrl+C")
             print("\n\n👋 Avslutter...")
             break
         except Exception as e:
+            ailo.logger.error(f"Error in interactive chat loop: {e}", exc_info=True)
             print(f"\n❌ Error: {e}")
 
 
 async def main():
     """Main function."""
-    await interactive_chat()
+    # Set up basic logging for the main function
+    logger = logging.getLogger('AILO')
+    logger.info("AILO Application Started")
+    logger.info(f"Python version: {__import__('sys').version}")
+    logger.info(f"Current working directory: {Path.cwd()}")
+    
+    try:
+        await interactive_chat()
+    except Exception as e:
+        logger.error(f"Fatal error in main: {e}", exc_info=True)
+        print(f"\n❌ Fatal error: {e}")
+    finally:
+        logger.info("AILO Application Shutdown")
+        logger.info("=" * 80)
 
 
 if __name__ == "__main__":
