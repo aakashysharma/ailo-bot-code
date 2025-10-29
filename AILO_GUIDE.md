@@ -2,7 +2,7 @@
 
 ## Overview
 
-AILO (AI Learning and Opportunity Advisor) is a locally-running AI career counselor that uses Norwegian educational data from utdanning.no and runs on your local LM Studio with the Gemma model.
+AILO (AI-powered Learning Oracle) is a locally-running AI career counselor that uses Norwegian educational data from utdanning.no and runs on your local LM Studio with the Gemma model.
 
 ## 📦 System Components
 

@@ -1,4 +1,4 @@
-# 🤖 AILO - AI Learning and Opportunity Advisor
+# 🤖 AILO - AI-powered Learning Oracle
 
 AILO er en AI-drevet karriererådgiver basert på data fra utdanning.no, kjørende lokalt med LM Studio.
 

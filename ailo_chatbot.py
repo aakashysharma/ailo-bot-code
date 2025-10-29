@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-AILO - AI Learning and Opportunity Advisor
-A career counselor chatbot powered by local LLM (LM Studio) with Norwegian educational data
+AILO - AI-powered Learning Oracle
+A career counselor chatbot powered by local LLM with Norwegian educational data
 """
 
 import asyncio
@@ -28,7 +28,8 @@ class ConversationMessage:
 
 class AILOChatbot:
     """
-    AILO - Career counselor chatbot using local LM Studio server
+    AILO - AI-powered Learning Oracle
+    Career counselor chatbot using local LM Studio server
     """
     
     def __init__(
@@ -115,7 +116,7 @@ class AILOChatbot:
         Returns:
             System prompt string
         """
-        return """Du er AILO (AI Learning and Opportunity Advisor), en erfaren karriererådgiver som hjelper mennesker i Norge med utdannings- og karrierevalg.
+        return """Du er AILO (AI-powered Learning Oracle), en erfaren karriererådgiver som hjelper mennesker i Norge med utdannings- og karrierevalg.
 
 **Din rolle:**
 - Du er en vennlig, profesjonell og empatisk karriererådgiver
@@ -783,7 +784,7 @@ class AILOChatbot:
 async def interactive_chat():
     """Run interactive chat session with AILO."""
     print("=" * 60)
-    print("🤖 AILO - AI Learning and Opportunity Advisor")
+    print("🤖 AILO - AI-powered Learning Oracle")
     print("   Din personlige karriererådgiver")
     print("=" * 60)
     print()

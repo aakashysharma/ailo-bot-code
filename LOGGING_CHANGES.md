@@ -1,5 +1,7 @@
 # AILO Chatbot - Comprehensive Logging Implementation
 
+**AILO** = AI-powered Learning Oracle
+
 ## Summary
 
 Comprehensive logging has been added to every part of the AILO chatbot program. All chat interactions, responses, and the internal "thinking process" are now logged to both console and log files.

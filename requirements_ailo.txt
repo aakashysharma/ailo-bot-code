@@ -1,4 +1,4 @@
-# AILO - AI Learning and Opportunity Advisor
+# AILO - AI-powered Learning Oracle
 # Required Python packages
 
 # Async HTTP client for API calls and LM Studio communication

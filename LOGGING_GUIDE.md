@@ -1,5 +1,7 @@
 # AILO Chatbot Logging System
 
+**AILO** = AI-powered Learning Oracle
+
 ## Overview
 
 The AILO chatbot now includes comprehensive logging throughout all parts of the program. This allows you to track every step of the conversation, from loading the knowledge base to generating responses.

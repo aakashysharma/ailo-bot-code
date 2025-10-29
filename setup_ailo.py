@@ -160,7 +160,7 @@ def create_launchd_plist():
 
 def create_readme():
     """Create comprehensive README for the AILO system."""
-    readme_content = """# 🤖 AILO - AI Learning and Opportunity Advisor
+    readme_content = """# 🤖 AILO - AI-powered Learning Oracle
 
 AILO er en AI-drevet karriererådgiver basert på data fra utdanning.no, kjørende lokalt med LM Studio.
 
@@ -393,7 +393,7 @@ def main():
     """Main setup function."""
     print("=" * 60)
     print("🤖 AILO System Setup")
-    print("   AI Learning and Opportunity Advisor")
+    print("   AI-powered Learning Oracle")
     print("=" * 60)
     print()
     
