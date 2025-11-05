@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "total_questions": 10,
+    "average_score": 98.0,
+    "source_citation_rate": 100.0,
+    "honest_limitation_rate": 0.0,
+    "data_containing_rate": 100.0,
+    "avg_processing_time": 10.35
+  },
+  "score_distribution": {
+    "excellent (80-100)": 10,
+    "good (60-79)": 0,
+    "fair (40-59)": 0,
+    "poor (0-39)": 0
+  },
+  "category_performance": {
+    "general": {
+      "count": 1,
+      "avg_score": 100.0,
+      "min_score": 100.0,
+      "max_score": 100.0
+    },
+    "job_duties": {
+      "count": 1,
+      "avg_score": 100.0,
+      "min_score": 100.0,
+      "max_score": 100.0
+    },
+    "comparison": {
+      "count": 1,
+      "avg_score": 90.0,
+      "min_score": 90.0,
+      "max_score": 90.0
+    },
+    "work_conditions": {
+      "count": 1,
+      "avg_score": 100.0,
+      "min_score": 100.0,
+      "max_score": 100.0
+    },
+    "definition": {
+      "count": 1,
+      "avg_score": 100.0,
+      "min_score": 100.0,
+      "max_score": 100.0
+    },
+    "job_locations": {
+      "count": 1,
+      "avg_score": 100.0,
+      "min_score": 100.0,
+      "max_score": 100.0
+    },
+    "study_duration": {
+      "count": 1,
+      "avg_score": 90.0,
+      "min_score": 90.0,
+      "max_score": 90.0
+    },
+    "authorization": {
+      "count": 1,
+      "avg_score": 100.0,
+      "min_score": 100.0,
+      "max_score": 100.0
+    },
+    "education_path": {
+      "count": 1,
+      "avg_score": 100.0,
+      "min_score": 100.0,
+      "max_score": 100.0
+    },
+    "career_options": {
+      "count": 1,
+      "avg_score": 100.0,
+      "min_score": 100.0,
+      "max_score": 100.0
+    }
+  },
+  "best_response": {
+    "question": "Hva kan man jobbe som dataingeniør?",
+    "score": 100.0,
+    "has_source": true
+  },
+  "worst_response": {
+    "question": "Hva er forskjellen på veterinær og dyrlege?",
+    "score": 90.0,
+    "has_source": true,
+    "response_preview": "Jeg har ikke informasjon om forskjellen mellom veterinær og dyrlege i de oppgitte dokumentene. Jeg kan derfor ikke gi deg et svar basert på disse kildene. (Kilde: https://utdanning.no/sammenligning/ma..."
+  },
+  "recommendations": [
+    "✅ Excellent performance! AILO is working well"
+  ]
+}
