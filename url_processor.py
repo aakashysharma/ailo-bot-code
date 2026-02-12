@@ -48,6 +48,18 @@ class URLProcessor:
         
         ids = set()
         
+        def is_valid_id(val: str) -> bool:
+            """Check if a string looks like a valid ID rather than a path or filename."""
+            if not val or len(val) > 40:
+                return False
+            # Exclude strings that look like internal JSON paths or complex structures
+            if val.count('_') > 4 or val.count('.') > 2 or ';' in val:
+                return False
+            # Typical IDs: numeric, y_*, u_*, or alphanumeric codes
+            if re.match(r'^(y_|u_|v_|[0-9]+|[a-zA-Z0-9-]+)$', val):
+                return True
+            return False
+
         def recursive_extract(obj, path=""):
             """Recursively extract IDs from nested data."""
             if isinstance(obj, dict):
@@ -56,8 +68,10 @@ class URLProcessor:
                     
                     # Check if this field might be an ID
                     if any(id_field in key.lower() for id_field in id_fields):
-                        if isinstance(value, (str, int)) and value:
-                            ids.add(str(value))
+                        if isinstance(value, (str, int)):
+                            str_val = str(value)
+                            if is_valid_id(str_val):
+                                ids.add(str_val)
                     
                     # Recurse into nested objects
                     recursive_extract(value, current_path)
@@ -69,7 +83,7 @@ class URLProcessor:
             elif isinstance(obj, (str, int)) and obj:
                 # Check if this looks like an ID (numeric or alphanumeric)
                 str_val = str(obj)
-                if re.match(r'^[a-zA-Z0-9._-]+$', str_val) and len(str_val) <= 50:
+                if is_valid_id(str_val):
                     if path and any(id_field in path.lower() for id_field in id_fields):
                         ids.add(str_val)
         
@@ -89,6 +103,10 @@ class URLProcessor:
         self.logger.info("Analyzing downloaded data for ID extraction...")
         
         for json_file in raw_data_dir.glob("*.json"):
+            # Skip summary files and parameterized download results
+            if json_file.stem in ['complete_download_summary', 'parameterized_download_summary'] or json_file.stem.startswith('param_'):
+                continue
+
             try:
                 with open(json_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
@@ -101,7 +119,7 @@ class URLProcessor:
                 id_collections[filename] = ids
                 
                 if ids:
-                    self.logger.info(f"Found {len(ids)} potential IDs in {filename}")
+                    self.logger.debug(f"Found {len(ids)} potential IDs in {filename}")
                 
             except Exception as e:
                 self.logger.warning(f"Error processing {json_file}: {e}")
@@ -130,19 +148,31 @@ class URLProcessor:
                 # Find matching IDs for this parameter
                 matching_ids = set()
                 
+                # Prefix filtering logic
+                prefix_filter = None
+                if "/sammenligning/yrke/" in url_template or "yrke" in url_template.lower():
+                    prefix_filter = "y_"
+                elif "/sammenligning/utdanning/" in url_template or "utdanning" in url_template.lower():
+                    prefix_filter = "u_"
+
                 # Look for IDs that might match this parameter
                 for source, ids in id_collections.items():
                     # Simple heuristics for matching
-                    if param_name.lower() in source.lower():
-                        matching_ids.update(ids)
-                    elif param_name == 'id' and 'id' in source.lower():
-                        matching_ids.update(ids)
-                    elif param_name in ['nid'] and 'artikkel' in source.lower() or 'faq' in source.lower():
-                        matching_ids.update(ids)
+                    field_match = param_name.lower() in source.lower() or (param_name == 'id' and 'id' in source.lower())
+                    
+                    if field_match:
+                        for val in ids:
+                            if prefix_filter:
+                                if val.startswith(prefix_filter):
+                                    matching_ids.add(val)
+                            else:
+                                matching_ids.add(val)
                 
                 # Generate concrete URLs
                 if matching_ids:
-                    for id_val in list(matching_ids)[:100]:  # Limit to first 100 IDs
+                    # Sort to ensure consistency and take a limited sample
+                    sorted_ids = sorted(list(matching_ids))
+                    for id_val in sorted_ids[:100]:  # Limit to first 100 IDs
                         concrete_url = url_template.replace(f'{{{param_name}}}', str(id_val))
                         concrete_urls.append(concrete_url)
             

@@ -58,7 +58,10 @@ def install_dependencies():
         "aiohttp",
         "tqdm",
         "schedule",
-        "requests"
+        "requests",
+        "pyarrow",
+        "pandas",
+        "numpy"
     ]
     
     for package in packages:

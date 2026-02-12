@@ -148,14 +148,6 @@
     "method": "GET"
   },
   {
-    "url": "https://api.utdanning.no/ga4/paths",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/ga4/views",
-    "method": "GET"
-  },
-  {
     "url": "https://api.utdanning.no/jobbkompasset/forside",
     "method": "GET"
   },
@@ -208,7 +200,7 @@
     "method": "GET"
   },
   {
-    "url": "https://api.utdanning.no/linje/artikkel",
+    "url": "https://api.utdanning.no/linje/artikkel?nid=1",
     "method": "GET"
   },
   {
@@ -448,30 +440,6 @@
     "method": "GET"
   },
   {
-    "url": "https://api.utdanning.no/search_logs",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search_logs",
-    "method": "POST"
-  },
-  {
-    "url": "https://api.utdanning.no/search_logs/{id}",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/search_logs/{id}",
-    "method": "PUT"
-  },
-  {
-    "url": "https://api.utdanning.no/search_logs/{id}",
-    "method": "DELETE"
-  },
-  {
-    "url": "https://api.utdanning.no/search_logs/{id}",
-    "method": "PATCH"
-  },
-  {
     "url": "https://api.utdanning.no/studievelgeren/facet",
     "method": "GET"
   },
@@ -553,10 +521,6 @@
   },
   {
     "url": "https://api.utdanning.no/yrkearbeidsliv/potensielle-larebedrifter",
-    "method": "GET"
-  },
-  {
-    "url": "https://api.utdanning.no/yrkearbeidsliv/potensielle-larebedrifter-info",
     "method": "GET"
   },
   {
