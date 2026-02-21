@@ -247,6 +247,42 @@ class UtdanningAPIDownloader:
         parsed = urlparse(url)
         return parse_qs(parsed.query)
     
+    def _normalize_parameter_value(self, param_name: str, value: Any) -> str:
+        """
+        Normalize human-readable labels to API-compatible codes.
+        
+        Args:
+            param_name: Name of the parameter
+            value: The value to normalize
+            
+        Returns:
+            Normalized value string
+        """
+        str_val = str(value)
+        
+        # Sector normalization
+        if param_name == 'sektor':
+            mapping = {
+                'Privat': 'P',
+                'Statlig': 'S',
+                'Kommune': 'K',
+                'Alle': 'A'
+            }
+            return mapping.get(str_val, str_val)
+            
+        # Work time normalization
+        if param_name == 'arbeidstid':
+            mapping = {
+                'Heltid': 'H',
+                'Deltid': 'D',
+                'Alle': 'A'
+            }
+            # Handle some variations discovered in data
+            if str_val == 'S': return 'H' # Assume Heltid if S (common error)
+            return mapping.get(str_val, str_val)
+            
+        return str_val
+
     def _extract_values_from_data(self, data: Any, field_name: str) -> Set[str]:
         """
         Extract values for a specific field from nested JSON data.
@@ -277,9 +313,12 @@ class UtdanningAPIDownloader:
                     # Check if this could be a nested structure with the field
                     if isinstance(value, dict):
                         # Special handling for sammenligning data structure
-                        if field_name in ['sektor', 'arbeidstid', 'aldersklasse', 'ansiennitet']:
-                            if key in ['P', 'S', 'A', 'H', 'F']:  # Common parameter values
-                                values.add(key)
+                        if field_name == 'sektor' and key in ['P', 'S', 'A', 'K']:
+                            values.add(key)
+                        elif field_name == 'arbeidstid' and key in ['H', 'D', 'A', 'F']:
+                            values.add(key)
+                        elif field_name in ['aldersklasse', 'ansiennitet'] and key in ['A', '1', '2', '3', '4', '5']:
+                            values.add(key)
                     
                     recursive_search(value, current_path)
                     
@@ -665,14 +704,20 @@ class UtdanningAPIDownloader:
                 return [{"success": False, "url": url, "reason": f"Missing parameters: {missing_params}"}]
             
             # Limit combinations to prevent excessive requests
-            arbeidstid_values = list(self.parameter_values['arbeidstid'])[:3]  # Limit to 3
-            sektor_values = list(self.parameter_values['sektor'])[:2]  # Limit to 2
-            uno_id_values = list(self.parameter_values['uno_id'])[:10]  # Limit to 10
+            arbeidstid_values = list(self.parameter_values['arbeidstid'])[:3]
+            sektor_values = list(self.parameter_values['sektor'])[:2]
+            
+            # Filter uno_id for lonn - only use y_ (yrke) prefix
+            uno_id_values = [v for v in self.parameter_values['uno_id'] if str(v).startswith('y_')][:15]
+            
+            if not uno_id_values:
+                # Fallback if no y_ IDs found yet
+                uno_id_values = list(self.parameter_values['uno_id'])[:5]
             
             for arbeidstid, sektor, uno_id in product(arbeidstid_values, sektor_values, uno_id_values):
                 params = {
-                    'arbeidstid': arbeidstid,
-                    'sektor': sektor,
+                    'arbeidstid': self._normalize_parameter_value('arbeidstid', arbeidstid),
+                    'sektor': self._normalize_parameter_value('sektor', sektor),
                     'uno_id': uno_id,
                     'historie': 'true'
                 }
@@ -712,8 +757,12 @@ class UtdanningAPIDownloader:
                 param_combinations.append(params)
                 
         elif '/search/facet' in url:
-            # Facet endpoint typically needs facet type
-            facet_types = ['type', 'utdanningsniva', 'fylke', 'studieniva']
+            # Facet endpoint - use valid Norwegian labels
+            facet_types = [
+                'hovedfasett', 'innholdstype', 'omrade', 'utdanningsniva', 
+                'utdanningsprogram', 'interesse', 'linje', 'organisasjon', 
+                'fagomrade', 'niva', 'studieform', 'fagretning', 'sektor', 'artikkeltype'
+            ]
             for facet in facet_types:
                 params = {'facet': facet}
                 param_combinations.append(params)
