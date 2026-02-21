@@ -1,0 +1,152 @@
+2026-02-18 13:35:15 - AILO - INFO - [_setup_logging:108] - ================================================================================
+2026-02-18 13:35:15 - AILO - INFO - [_setup_logging:109] - AILO Chatbot Logging System Initialized
+2026-02-18 13:35:15 - AILO - INFO - [_setup_logging:110] - ================================================================================
+2026-02-18 13:35:15 - AILO - INFO - [interactive_chat:795] - Interactive chat session started
+2026-02-18 13:35:15 - AILO - INFO - [interactive_chat:799] - Testing LM Studio connection...
+2026-02-18 13:35:15 - AILO - INFO - [test_connection:758] - Testing connection to LM Studio server...
+2026-02-18 13:35:15 - AILO - DEBUG - [test_connection:759] - Server URL: http://localhost:1234/v1
+2026-02-18 13:35:15 - AILO - DEBUG - [test_connection:764] - Response status: 200
+2026-02-18 13:35:15 - AILO - INFO - [test_connection:768] - ✅ Connected to LM Studio server
+2026-02-18 13:35:15 - AILO - INFO - [test_connection:769] - Available models: {'data': [{'id': 'google/gemma-3n-e4b', 'object': 'model', 'owned_by': 'organization_owner'}, {'id': 'microsoft/phi-4-reasoning-plus', 'object': 'model', 'owned_by': 'organization_owner'}, {'id': 'mistralai/devstral-small-2-2512', 'object': 'model', 'owned_by': 'organization_owner'}, {'id': 'text-embedding-nomic-embed-text-v1.5', 'object': 'model', 'owned_by': 'organization_owner'}], 'object': 'list'}
+2026-02-18 13:35:15 - AILO - INFO - [load_knowledge_base:164] - ============================================================
+2026-02-18 13:35:15 - AILO - INFO - [load_knowledge_base:165] - STARTING KNOWLEDGE BASE LOADING
+2026-02-18 13:35:15 - AILO - INFO - [load_knowledge_base:166] - ============================================================
+2026-02-18 13:35:15 - AILO - INFO - [load_knowledge_base:167] - Data directory: utdanning_data
+2026-02-18 13:35:15 - AILO - DEBUG - [load_knowledge_base:171] - Looking for vectorization dataset at: utdanning_data/processed/text_for_llm/vectorization_dataset.json
+2026-02-18 13:35:15 - AILO - INFO - [load_knowledge_base:175] - Vectorization dataset found, loading...
+2026-02-18 13:35:22 - AILO - INFO - [load_knowledge_base:180] - ✓ Successfully loaded 61035 documents into knowledge base
+2026-02-18 13:35:22 - AILO - INFO - [_index_knowledge_base:228] - Creating knowledge base index by categories...
+2026-02-18 13:35:22 - AILO - INFO - [_index_knowledge_base:269] - ✓ Knowledge base indexed by categories:
+2026-02-18 13:35:22 - AILO - INFO - [_index_knowledge_base:271] -   - yrker: 14249 documents
+2026-02-18 13:35:22 - AILO - INFO - [_index_knowledge_base:271] -   - utdanning: 48179 documents
+2026-02-18 13:35:22 - AILO - INFO - [_index_knowledge_base:271] -   - lønn: 62 documents
+2026-02-18 13:35:22 - AILO - INFO - [_index_knowledge_base:271] -   - læreplass: 13558 documents
+2026-02-18 13:35:22 - AILO - INFO - [_index_knowledge_base:271] -   - skole: 14101 documents
+2026-02-18 13:35:22 - AILO - INFO - [_index_knowledge_base:271] -   - arbeidsmarked: 17855 documents
+2026-02-18 13:35:22 - AILO - INFO - [_index_knowledge_base:272] - ============================================================
+2026-02-18 13:35:22 - AILO - INFO - [interactive_chat:820] - Interactive chat ready with 61035 documents
+2026-02-18 13:35:45 - AILO - INFO - [interactive_chat:838] - --- Interaction #1 ---
+2026-02-18 13:35:45 - AILO - INFO - [interactive_chat:862] - Processing user input: kan jeg studere infomratikk på UiT i Tromsø?...
+2026-02-18 13:35:45 - AILO - INFO - [chat:586] - ================================================================================
+2026-02-18 13:35:45 - AILO - INFO - [chat:587] - NEW CHAT REQUEST
+2026-02-18 13:35:45 - AILO - INFO - [chat:588] - ================================================================================
+2026-02-18 13:35:45 - AILO - INFO - [chat:589] - User message: kan jeg studere infomratikk på UiT i Tromsø?
+2026-02-18 13:35:45 - AILO - DEBUG - [chat:590] - Include context: True
+2026-02-18 13:35:45 - AILO - DEBUG - [chat:599] - Knowledge base loaded with 61035 documents
+2026-02-18 13:35:45 - AILO - INFO - [chat:602] - Preparing context from knowledge base...
+2026-02-18 13:35:45 - AILO - DEBUG - [_prepare_context:452] - Preparing context for user query...
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:285] - ============================================================
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:286] - KNOWLEDGE BASE SEARCH
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:287] - ============================================================
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:288] - Query: kan jeg studere infomratikk på UiT i Tromsø?
+2026-02-18 13:35:45 - AILO - DEBUG - [search_knowledge_base:293] - Max results requested: 5
+2026-02-18 13:35:45 - AILO - DEBUG - [search_knowledge_base:300] - Extracted key terms: {'studere', 'infomratikk', 'tromsø?'}
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:304] - Question type identified: general
+2026-02-18 13:35:45 - AILO - DEBUG - [search_knowledge_base:306] - Searching through 61035 documents...
+2026-02-18 13:35:45 - AILO - DEBUG - [_score_document:431] - Doc '39364' scored 6.00: text_match(studere): +5, content_length(long): +1...
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:314] - Found 51443 documents with score > 0
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:320] - Returning top 5 results:
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:324] -   1. Score: 6.00 - 39364 - Informasjon fra Sammenligning av yrker og utdannin
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:324] -   2. Score: 3.00 - 36846 - Informasjon fra Onet Yrker Interesse 43
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:324] -   3. Score: 3.00 - 36914 - Informasjon fra Onet Yrker Interesse 111
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:324] -   4. Score: 3.00 - 37068 - Informasjon fra Onet Yrker Interesse 265
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:324] -   5. Score: 3.00 - 37162 - Informasjon fra Onet Yrker Interesse 359
+2026-02-18 13:35:45 - AILO - INFO - [search_knowledge_base:326] - ============================================================
+2026-02-18 13:35:45 - AILO - INFO - [_prepare_context:459] - Building context from 5 relevant documents
+2026-02-18 13:35:45 - AILO - DEBUG - [_prepare_context:468] - Processing doc 1: Informasjon fra Sammenligning av yrker og utdannin... from sammenligning/main
+2026-02-18 13:35:45 - AILO - DEBUG - [_prepare_context:483] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/barnehageassistent
+2026-02-18 13:35:45 - AILO - DEBUG - [_prepare_context:500] -   Truncated text from 92626 to 1000 chars
+2026-02-18 13:35:45 - AILO - DEBUG - [_prepare_context:468] - Processing doc 2: Informasjon fra Onet Yrker Interesse 43... from onet/yrker/interesse/43
+2026-02-18 13:35:45 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/astronom
+2026-02-18 13:35:45 - AILO - DEBUG - [_prepare_context:468] - Processing doc 3: Informasjon fra Onet Yrker Interesse 111... from onet/yrker/interesse/111
+2026-02-18 13:35:45 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/geograf
+2026-02-18 13:35:45 - AILO - DEBUG - [_prepare_context:468] - Processing doc 4: Informasjon fra Onet Yrker Interesse 265... from onet/yrker/interesse/265
+2026-02-18 13:35:45 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/sosialantropolog
+2026-02-18 13:35:45 - AILO - DEBUG - [_prepare_context:468] - Processing doc 5: Informasjon fra Onet Yrker Interesse 359... from onet/yrker/interesse/359
+2026-02-18 13:35:45 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/oseanograf
+2026-02-18 13:35:45 - AILO - INFO - [_prepare_context:513] - ✓ Context prepared: 3567 characters total
+2026-02-18 13:35:45 - AILO - DEBUG - [chat:605] - Context length: 3567 characters
+2026-02-18 13:35:45 - AILO - INFO - [chat:619] - Building message array for LLM...
+2026-02-18 13:35:45 - AILO - DEBUG - [chat:627] - Added system prompt
+2026-02-18 13:35:45 - AILO - DEBUG - [chat:634] - Added context to messages
+2026-02-18 13:35:45 - AILO - DEBUG - [chat:643] - Added source citation reminder
+2026-02-18 13:35:45 - AILO - DEBUG - [chat:660] - Added current user message
+2026-02-18 13:35:45 - AILO - INFO - [chat:662] - Total messages in API call: 4
+2026-02-18 13:35:45 - AILO - INFO - [chat:665] - Calling LM Studio API at http://localhost:1234/v1...
+2026-02-18 13:35:45 - AILO - DEBUG - [chat:674] - API Payload: model=gemma-3n-E4B-it-MLX-bf16, temperature=0.5, max_tokens=1500
+2026-02-18 13:35:50 - AILO - DEBUG - [chat:680] - API Response Status: 200
+2026-02-18 13:35:50 - AILO - INFO - [chat:686] - ✓ Successfully received response from LLM
+2026-02-18 13:35:50 - AILO - INFO - [chat:687] - Response length: 431 characters
+2026-02-18 13:35:50 - AILO - DEBUG - [chat:688] - Assistant response: Jeg har ikke denne informasjonen i databasen min fra utdanning.no. Jeg kan ikke bekrefte om du kan studere informatikk på UiT i Tromsø basert på de oppgitte dokumentene. 
+
+Jeg kan hjelpe deg med infor...
+2026-02-18 13:35:50 - AILO - INFO - [chat:692] - Source citations found in response: 0
+2026-02-18 13:35:50 - AILO - WARNING - [chat:696] - ⚠ Response is missing source citations!
+2026-02-18 13:35:50 - AILO - DEBUG - [chat:707] - Conversation history now has 2 messages
+2026-02-18 13:35:50 - AILO - INFO - [chat:709] - ================================================================================
+2026-02-18 13:35:50 - AILO - INFO - [interactive_chat:866] - Response delivered to user
+2026-02-18 13:36:19 - AILO - INFO - [interactive_chat:838] - --- Interaction #2 ---
+2026-02-18 13:36:19 - AILO - INFO - [interactive_chat:847] - User requested to clear conversation history
+2026-02-18 13:36:19 - AILO - INFO - [clear_conversation:727] - Conversation history cleared (2 messages removed)
+2026-02-18 13:36:28 - AILO - INFO - [interactive_chat:838] - --- Interaction #3 ---
+2026-02-18 13:36:28 - AILO - INFO - [interactive_chat:862] - Processing user input: what can I study in Tromsø?...
+2026-02-18 13:36:28 - AILO - INFO - [chat:586] - ================================================================================
+2026-02-18 13:36:28 - AILO - INFO - [chat:587] - NEW CHAT REQUEST
+2026-02-18 13:36:28 - AILO - INFO - [chat:588] - ================================================================================
+2026-02-18 13:36:28 - AILO - INFO - [chat:589] - User message: what can I study in Tromsø?
+2026-02-18 13:36:28 - AILO - DEBUG - [chat:590] - Include context: True
+2026-02-18 13:36:28 - AILO - DEBUG - [chat:599] - Knowledge base loaded with 61035 documents
+2026-02-18 13:36:28 - AILO - INFO - [chat:602] - Preparing context from knowledge base...
+2026-02-18 13:36:28 - AILO - DEBUG - [_prepare_context:452] - Preparing context for user query...
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:285] - ============================================================
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:286] - KNOWLEDGE BASE SEARCH
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:287] - ============================================================
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:288] - Query: what can I study in Tromsø?
+2026-02-18 13:36:28 - AILO - DEBUG - [search_knowledge_base:293] - Max results requested: 5
+2026-02-18 13:36:28 - AILO - DEBUG - [search_knowledge_base:300] - Extracted key terms: {'tromsø?', 'what', 'study'}
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:304] - Question type identified: general
+2026-02-18 13:36:28 - AILO - DEBUG - [search_knowledge_base:306] - Searching through 61035 documents...
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:314] - Found 51443 documents with score > 0
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:320] - Returning top 5 results:
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:324] -   1. Score: 3.00 - 87 - Informasjon fra Hjelp til valg av studier
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:324] -   2. Score: 3.00 - 1689 - Informasjon fra Hjelp til valg av studier
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:324] -   3. Score: 3.00 - 3870 - Informasjon fra Hjelp til valg av studier
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:324] -   4. Score: 3.00 - 5274 - Informasjon fra Hjelp til valg av studier
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:324] -   5. Score: 3.00 - 6407 - Informasjon fra Hjelp til valg av studier
+2026-02-18 13:36:28 - AILO - INFO - [search_knowledge_base:326] - ============================================================
+2026-02-18 13:36:28 - AILO - INFO - [_prepare_context:459] - Building context from 5 relevant documents
+2026-02-18 13:36:28 - AILO - DEBUG - [_prepare_context:468] - Processing doc 1: Informasjon fra Hjelp til valg av studier... from studievelgeren/result/fylke-Rogaland/53
+2026-02-18 13:36:28 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/utdanning
+2026-02-18 13:36:28 - AILO - DEBUG - [_prepare_context:468] - Processing doc 2: Informasjon fra Hjelp til valg av studier... from studievelgeren/result/fylke-Akershus/54
+2026-02-18 13:36:28 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/utdanning
+2026-02-18 13:36:28 - AILO - DEBUG - [_prepare_context:468] - Processing doc 3: Informasjon fra Hjelp til valg av studier... from studievelgeren/result/fylke-Agder/491
+2026-02-18 13:36:28 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/utdanning
+2026-02-18 13:36:28 - AILO - DEBUG - [_prepare_context:468] - Processing doc 4: Informasjon fra Hjelp til valg av studier... from studievelgeren/result/fylke-Viken/510
+2026-02-18 13:36:28 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/utdanning
+2026-02-18 13:36:28 - AILO - DEBUG - [_prepare_context:468] - Processing doc 5: Informasjon fra Hjelp til valg av studier... from studievelgeren/result/fylke-Trøndelag/54
+2026-02-18 13:36:28 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/utdanning
+2026-02-18 13:36:28 - AILO - INFO - [_prepare_context:513] - ✓ Context prepared: 2693 characters total
+2026-02-18 13:36:28 - AILO - DEBUG - [chat:605] - Context length: 2693 characters
+2026-02-18 13:36:28 - AILO - INFO - [chat:619] - Building message array for LLM...
+2026-02-18 13:36:28 - AILO - DEBUG - [chat:627] - Added system prompt
+2026-02-18 13:36:28 - AILO - DEBUG - [chat:634] - Added context to messages
+2026-02-18 13:36:28 - AILO - DEBUG - [chat:643] - Added source citation reminder
+2026-02-18 13:36:28 - AILO - DEBUG - [chat:660] - Added current user message
+2026-02-18 13:36:28 - AILO - INFO - [chat:662] - Total messages in API call: 4
+2026-02-18 13:36:28 - AILO - INFO - [chat:665] - Calling LM Studio API at http://localhost:1234/v1...
+2026-02-18 13:36:28 - AILO - DEBUG - [chat:674] - API Payload: model=gemma-3n-E4B-it-MLX-bf16, temperature=0.5, max_tokens=1500
+2026-02-18 13:36:40 - AILO - DEBUG - [chat:680] - API Response Status: 200
+2026-02-18 13:36:40 - AILO - INFO - [chat:686] - ✓ Successfully received response from LLM
+2026-02-18 13:36:40 - AILO - INFO - [chat:687] - Response length: 1078 characters
+2026-02-18 13:36:40 - AILO - DEBUG - [chat:688] - Assistant response: Hei! Jeg kan hjelpe deg med å finne ut hvilke studier som tilbys i Tromsø basert på data fra utdanning.no.
+
+Basert på informasjonen jeg har tilgang til, er det flere studier som tilbys i Tromsø. Her e...
+2026-02-18 13:36:40 - AILO - INFO - [chat:692] - Source citations found in response: 3
+2026-02-18 13:36:40 - AILO - DEBUG - [chat:707] - Conversation history now has 2 messages
+2026-02-18 13:36:40 - AILO - INFO - [chat:709] - ================================================================================
+2026-02-18 13:36:40 - AILO - INFO - [interactive_chat:866] - Response delivered to user
+2026-02-18 13:37:13 - AILO - INFO - [interactive_chat:838] - --- Interaction #4 ---
+2026-02-18 13:37:13 - AILO - INFO - [interactive_chat:841] - User requested exit
+2026-02-18 13:37:13 - AILO - INFO - [interactive_chat:843] - Interactive session ended after 4 interactions
+2026-02-18 13:37:13 - AILO - INFO - [main:891] - AILO Application Shutdown
+2026-02-18 13:37:13 - AILO - INFO - [main:892] - ================================================================================

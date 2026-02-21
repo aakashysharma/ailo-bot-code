@@ -1,0 +1,174 @@
+2026-02-12 23:21:19 - AILO - INFO - [_setup_logging:108] - ================================================================================
+2026-02-12 23:21:19 - AILO - INFO - [_setup_logging:109] - AILO Chatbot Logging System Initialized
+2026-02-12 23:21:19 - AILO - INFO - [_setup_logging:110] - ================================================================================
+2026-02-12 23:21:19 - AILO - INFO - [load_knowledge_base:164] - ============================================================
+2026-02-12 23:21:19 - AILO - INFO - [load_knowledge_base:165] - STARTING KNOWLEDGE BASE LOADING
+2026-02-12 23:21:19 - AILO - INFO - [load_knowledge_base:166] - ============================================================
+2026-02-12 23:21:19 - AILO - INFO - [load_knowledge_base:167] - Data directory: utdanning_data
+2026-02-12 23:21:19 - AILO - DEBUG - [load_knowledge_base:171] - Looking for vectorization dataset at: utdanning_data/processed/text_for_llm/vectorization_dataset.json
+2026-02-12 23:21:19 - AILO - INFO - [load_knowledge_base:175] - Vectorization dataset found, loading...
+2026-02-12 23:21:24 - AILO - INFO - [load_knowledge_base:180] - ✓ Successfully loaded 57079 documents into knowledge base
+2026-02-12 23:21:24 - AILO - INFO - [_index_knowledge_base:228] - Creating knowledge base index by categories...
+2026-02-12 23:21:24 - AILO - INFO - [_index_knowledge_base:269] - ✓ Knowledge base indexed by categories:
+2026-02-12 23:21:24 - AILO - INFO - [_index_knowledge_base:271] -   - yrker: 11588 documents
+2026-02-12 23:21:24 - AILO - INFO - [_index_knowledge_base:271] -   - utdanning: 45798 documents
+2026-02-12 23:21:24 - AILO - INFO - [_index_knowledge_base:271] -   - lønn: 56 documents
+2026-02-12 23:21:24 - AILO - INFO - [_index_knowledge_base:271] -   - læreplass: 12514 documents
+2026-02-12 23:21:24 - AILO - INFO - [_index_knowledge_base:271] -   - skole: 12668 documents
+2026-02-12 23:21:24 - AILO - INFO - [_index_knowledge_base:271] -   - arbeidsmarked: 12723 documents
+2026-02-12 23:21:24 - AILO - INFO - [_index_knowledge_base:272] - ============================================================
+2026-02-12 23:21:25 - AILO - INFO - [chat:586] - ================================================================================
+2026-02-12 23:21:25 - AILO - INFO - [chat:587] - NEW CHAT REQUEST
+2026-02-12 23:21:25 - AILO - INFO - [chat:588] - ================================================================================
+2026-02-12 23:21:25 - AILO - INFO - [chat:589] - User message: ji
+2026-02-12 23:21:25 - AILO - DEBUG - [chat:590] - Include context: True
+2026-02-12 23:21:25 - AILO - DEBUG - [chat:599] - Knowledge base loaded with 57079 documents
+2026-02-12 23:21:25 - AILO - INFO - [chat:602] - Preparing context from knowledge base...
+2026-02-12 23:21:25 - AILO - DEBUG - [_prepare_context:452] - Preparing context for user query...
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:285] - ============================================================
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:286] - KNOWLEDGE BASE SEARCH
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:287] - ============================================================
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:288] - Query: ji
+2026-02-12 23:21:25 - AILO - DEBUG - [search_knowledge_base:293] - Max results requested: 5
+2026-02-12 23:21:25 - AILO - DEBUG - [search_knowledge_base:300] - Extracted key terms: set()
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:304] - Question type identified: general
+2026-02-12 23:21:25 - AILO - DEBUG - [search_knowledge_base:306] - Searching through 57079 documents...
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:314] - Found 49509 documents with score > 0
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:320] - Returning top 5 results:
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:324] -   1. Score: 2.00 - 8 - Informasjon fra Sammenligning av yrker og utdannin
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:324] -   2. Score: 2.00 - 9 - Informasjon fra Sammenligning av yrker og utdannin
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:324] -   3. Score: 2.00 - 16 - Informasjon fra Sammenligning av yrker og utdannin
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:324] -   4. Score: 2.00 - 18 - Informasjon fra Sammenligning av yrker og utdannin
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:324] -   5. Score: 2.00 - 23 - Informasjon fra Sammenligning av yrker og utdannin
+2026-02-12 23:21:25 - AILO - INFO - [search_knowledge_base:326] - ============================================================
+2026-02-12 23:21:25 - AILO - INFO - [_prepare_context:459] - Building context from 5 relevant documents
+2026-02-12 23:21:25 - AILO - DEBUG - [_prepare_context:468] - Processing doc 1: Informasjon fra Sammenligning av yrker og utdannin... from sammenligning/lonn/arbeidstid-H/historie-true/sektor-P/uno/id-y/ingenior/enok
+2026-02-12 23:21:25 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/ingenior_i_energi_og_miljo_i_bygg
+2026-02-12 23:21:25 - AILO - DEBUG - [_prepare_context:468] - Processing doc 2: Informasjon fra Sammenligning av yrker og utdannin... from sammenligning/arbeidsledighet/uno/id-y/geofysiker
+2026-02-12 23:21:25 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/sammenligning/y/geofysiker
+2026-02-12 23:21:25 - AILO - DEBUG - [_prepare_context:468] - Processing doc 3: Informasjon fra Sammenligning av yrker og utdannin... from sammenligning/arbeidsledighet/uno/id-y/landbruk/mek
+2026-02-12 23:21:25 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/sammenligning/y/landbruk
+2026-02-12 23:21:25 - AILO - DEBUG - [_prepare_context:468] - Processing doc 4: Informasjon fra Sammenligning av yrker og utdannin... from sammenligning/lonn/arbeidstid-H/historie-true/sektor-A/uno/id-y/gravor
+2026-02-12 23:21:25 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/gravor
+2026-02-12 23:21:25 - AILO - DEBUG - [_prepare_context:468] - Processing doc 5: Informasjon fra Sammenligning av yrker og utdannin... from sammenligning/arbeidsledighet/uno/id-u/historie
+2026-02-12 23:21:25 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/sammenligning/u/historie
+2026-02-12 23:21:25 - AILO - INFO - [_prepare_context:513] - ✓ Context prepared: 3620 characters total
+2026-02-12 23:21:25 - AILO - DEBUG - [chat:605] - Context length: 3620 characters
+2026-02-12 23:21:25 - AILO - INFO - [chat:619] - Building message array for LLM...
+2026-02-12 23:21:25 - AILO - DEBUG - [chat:627] - Added system prompt
+2026-02-12 23:21:25 - AILO - DEBUG - [chat:634] - Added context to messages
+2026-02-12 23:21:25 - AILO - DEBUG - [chat:643] - Added source citation reminder
+2026-02-12 23:21:25 - AILO - DEBUG - [chat:660] - Added current user message
+2026-02-12 23:21:25 - AILO - INFO - [chat:662] - Total messages in API call: 4
+2026-02-12 23:21:25 - AILO - INFO - [chat:665] - Calling LM Studio API at http://localhost:1234/v1...
+2026-02-12 23:21:25 - AILO - DEBUG - [chat:674] - API Payload: model=gemma-3n-E4B-it-MLX-bf16, temperature=0.5, max_tokens=1500
+2026-02-12 23:22:11 - AILO - DEBUG - [chat:680] - API Response Status: 400
+2026-02-12 23:22:11 - AILO - ERROR - [chat:713] - ✗ API error 400: {"error":"The model has crashed without additional information. (Exit code: null)"}
+2026-02-12 23:22:24 - AILO - INFO - [chat:586] - ================================================================================
+2026-02-12 23:22:24 - AILO - INFO - [chat:587] - NEW CHAT REQUEST
+2026-02-12 23:22:24 - AILO - INFO - [chat:588] - ================================================================================
+2026-02-12 23:22:24 - AILO - INFO - [chat:589] - User message: Hi, Can you help me find CS study programs?
+2026-02-12 23:22:24 - AILO - DEBUG - [chat:590] - Include context: True
+2026-02-12 23:22:24 - AILO - DEBUG - [chat:599] - Knowledge base loaded with 57079 documents
+2026-02-12 23:22:24 - AILO - INFO - [chat:602] - Preparing context from knowledge base...
+2026-02-12 23:22:24 - AILO - DEBUG - [_prepare_context:452] - Preparing context for user query...
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:285] - ============================================================
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:286] - KNOWLEDGE BASE SEARCH
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:287] - ============================================================
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:288] - Query: Hi, Can you help me find CS study programs?
+2026-02-12 23:22:24 - AILO - DEBUG - [search_knowledge_base:293] - Max results requested: 5
+2026-02-12 23:22:24 - AILO - DEBUG - [search_knowledge_base:300] - Extracted key terms: {'programs?', 'study', 'help', 'find'}
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:304] - Question type identified: general
+2026-02-12 23:22:24 - AILO - DEBUG - [search_knowledge_base:306] - Searching through 57079 documents...
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:314] - Found 49509 documents with score > 0
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:320] - Returning top 5 results:
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:324] -   1. Score: 4.00 - 7459 - Informasjon fra Utdannings- og yrkeskategorisering
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:324] -   2. Score: 4.00 - 32124 - Informasjon fra Onet Yrker Interesse 462
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:324] -   3. Score: 4.00 - 34732 - Informasjon fra Onet Yrker
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:324] -   4. Score: 4.00 - 26757 - Informasjon fra Utdannings- og yrkeskategorisering
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:324] -   5. Score: 4.00 - 49595 - Informasjon fra Onet Yrker Interesse 462 (Del 1)
+2026-02-12 23:22:24 - AILO - INFO - [search_knowledge_base:326] - ============================================================
+2026-02-12 23:22:24 - AILO - INFO - [_prepare_context:459] - Building context from 5 relevant documents
+2026-02-12 23:22:24 - AILO - DEBUG - [_prepare_context:468] - Processing doc 1: Informasjon fra Utdannings- og yrkeskategorisering... from kategorisystemer/styrk08/193
+2026-02-12 23:22:24 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/kategorisystemer/styrk08/193
+2026-02-12 23:22:24 - AILO - DEBUG - [_prepare_context:468] - Processing doc 2: Informasjon fra Onet Yrker Interesse 462... from onet/yrker/interesse/462
+2026-02-12 23:22:24 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/supportkonsulent
+2026-02-12 23:22:24 - AILO - DEBUG - [_prepare_context:468] - Processing doc 3: Informasjon fra Onet Yrker... from onet/yrker
+2026-02-12 23:22:24 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/supportkonsulent
+2026-02-12 23:22:24 - AILO - DEBUG - [_prepare_context:468] - Processing doc 4: Informasjon fra Utdannings- og yrkeskategorisering... from kategorisystemer/styrk08/193
+2026-02-12 23:22:24 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/kategorisystemer/styrk08/193
+2026-02-12 23:22:24 - AILO - DEBUG - [_prepare_context:468] - Processing doc 5: Informasjon fra Onet Yrker Interesse 462 (Del 1)... from onet/yrker/interesse/462
+2026-02-12 23:22:24 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/supportkonsulent
+2026-02-12 23:22:24 - AILO - INFO - [_prepare_context:513] - ✓ Context prepared: 3270 characters total
+2026-02-12 23:22:24 - AILO - DEBUG - [chat:605] - Context length: 3270 characters
+2026-02-12 23:22:24 - AILO - INFO - [chat:619] - Building message array for LLM...
+2026-02-12 23:22:24 - AILO - DEBUG - [chat:627] - Added system prompt
+2026-02-12 23:22:24 - AILO - DEBUG - [chat:634] - Added context to messages
+2026-02-12 23:22:24 - AILO - DEBUG - [chat:643] - Added source citation reminder
+2026-02-12 23:22:24 - AILO - DEBUG - [chat:660] - Added current user message
+2026-02-12 23:22:24 - AILO - INFO - [chat:662] - Total messages in API call: 4
+2026-02-12 23:22:24 - AILO - INFO - [chat:665] - Calling LM Studio API at http://localhost:1234/v1...
+2026-02-12 23:22:24 - AILO - DEBUG - [chat:674] - API Payload: model=gemma-3n-E4B-it-MLX-bf16, temperature=0.5, max_tokens=1500
+2026-02-12 23:22:24 - AILO - DEBUG - [chat:680] - API Response Status: 400
+2026-02-12 23:22:24 - AILO - ERROR - [chat:713] - ✗ API error 400: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the 'lms load' command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": null
+    }
+}
+2026-02-12 23:23:14 - AILO - INFO - [chat:586] - ================================================================================
+2026-02-12 23:23:14 - AILO - INFO - [chat:587] - NEW CHAT REQUEST
+2026-02-12 23:23:14 - AILO - INFO - [chat:588] - ================================================================================
+2026-02-12 23:23:14 - AILO - INFO - [chat:589] - User message: Hi, Can you help me find CS study programs?
+2026-02-12 23:23:14 - AILO - DEBUG - [chat:590] - Include context: True
+2026-02-12 23:23:14 - AILO - DEBUG - [chat:599] - Knowledge base loaded with 57079 documents
+2026-02-12 23:23:14 - AILO - INFO - [chat:602] - Preparing context from knowledge base...
+2026-02-12 23:23:14 - AILO - DEBUG - [_prepare_context:452] - Preparing context for user query...
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:285] - ============================================================
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:286] - KNOWLEDGE BASE SEARCH
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:287] - ============================================================
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:288] - Query: Hi, Can you help me find CS study programs?
+2026-02-12 23:23:14 - AILO - DEBUG - [search_knowledge_base:293] - Max results requested: 5
+2026-02-12 23:23:14 - AILO - DEBUG - [search_knowledge_base:300] - Extracted key terms: {'programs?', 'study', 'help', 'find'}
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:304] - Question type identified: general
+2026-02-12 23:23:14 - AILO - DEBUG - [search_knowledge_base:306] - Searching through 57079 documents...
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:314] - Found 49509 documents with score > 0
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:320] - Returning top 5 results:
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:324] -   1. Score: 4.00 - 7459 - Informasjon fra Utdannings- og yrkeskategorisering
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:324] -   2. Score: 4.00 - 32124 - Informasjon fra Onet Yrker Interesse 462
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:324] -   3. Score: 4.00 - 34732 - Informasjon fra Onet Yrker
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:324] -   4. Score: 4.00 - 26757 - Informasjon fra Utdannings- og yrkeskategorisering
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:324] -   5. Score: 4.00 - 49595 - Informasjon fra Onet Yrker Interesse 462 (Del 1)
+2026-02-12 23:23:14 - AILO - INFO - [search_knowledge_base:326] - ============================================================
+2026-02-12 23:23:14 - AILO - INFO - [_prepare_context:459] - Building context from 5 relevant documents
+2026-02-12 23:23:14 - AILO - DEBUG - [_prepare_context:468] - Processing doc 1: Informasjon fra Utdannings- og yrkeskategorisering... from kategorisystemer/styrk08/193
+2026-02-12 23:23:14 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/kategorisystemer/styrk08/193
+2026-02-12 23:23:14 - AILO - DEBUG - [_prepare_context:468] - Processing doc 2: Informasjon fra Onet Yrker Interesse 462... from onet/yrker/interesse/462
+2026-02-12 23:23:14 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/supportkonsulent
+2026-02-12 23:23:14 - AILO - DEBUG - [_prepare_context:468] - Processing doc 3: Informasjon fra Onet Yrker... from onet/yrker
+2026-02-12 23:23:14 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/supportkonsulent
+2026-02-12 23:23:14 - AILO - DEBUG - [_prepare_context:468] - Processing doc 4: Informasjon fra Utdannings- og yrkeskategorisering... from kategorisystemer/styrk08/193
+2026-02-12 23:23:14 - AILO - DEBUG - [_prepare_context:489] -   Constructed URL from endpoint: https://utdanning.no/kategorisystemer/styrk08/193
+2026-02-12 23:23:14 - AILO - DEBUG - [_prepare_context:468] - Processing doc 5: Informasjon fra Onet Yrker Interesse 462 (Del 1)... from onet/yrker/interesse/462
+2026-02-12 23:23:14 - AILO - DEBUG - [_prepare_context:479] -   Found URL in metadata: https://utdanning.no/yrker/beskrivelse/supportkonsulent
+2026-02-12 23:23:14 - AILO - INFO - [_prepare_context:513] - ✓ Context prepared: 3270 characters total
+2026-02-12 23:23:14 - AILO - DEBUG - [chat:605] - Context length: 3270 characters
+2026-02-12 23:23:14 - AILO - INFO - [chat:619] - Building message array for LLM...
+2026-02-12 23:23:14 - AILO - DEBUG - [chat:627] - Added system prompt
+2026-02-12 23:23:14 - AILO - DEBUG - [chat:634] - Added context to messages
+2026-02-12 23:23:14 - AILO - DEBUG - [chat:643] - Added source citation reminder
+2026-02-12 23:23:14 - AILO - DEBUG - [chat:660] - Added current user message
+2026-02-12 23:23:14 - AILO - INFO - [chat:662] - Total messages in API call: 4
+2026-02-12 23:23:14 - AILO - INFO - [chat:665] - Calling LM Studio API at http://localhost:1234/v1...
+2026-02-12 23:23:14 - AILO - DEBUG - [chat:674] - API Payload: model=gemma-3n-E4B-it-MLX-bf16, temperature=0.5, max_tokens=1500
+2026-02-12 23:23:28 - AILO - DEBUG - [chat:680] - API Response Status: 200
+2026-02-12 23:23:28 - AILO - INFO - [chat:686] - ✓ Successfully received response from LLM
+2026-02-12 23:23:28 - AILO - INFO - [chat:687] - Response length: 1313 characters
+2026-02-12 23:23:28 - AILO - DEBUG - [chat:688] - Assistant response: Hei! Ja, jeg kan hjelpe deg med det. For å kunne gi deg de mest relevante rådene, trenger jeg litt mer informasjon om hva du er ute etter. 
+
+Men først, basert på informasjonen jeg har tilgjengelig fra...
+2026-02-12 23:23:28 - AILO - INFO - [chat:692] - Source citations found in response: 3
+2026-02-12 23:23:28 - AILO - DEBUG - [chat:707] - Conversation history now has 2 messages
+2026-02-12 23:23:28 - AILO - INFO - [chat:709] - ================================================================================
