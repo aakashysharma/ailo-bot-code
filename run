@@ -1,0 +1,107 @@
+#!/bin/bash
+
+# AILO - AI-powered Learning Oracle
+# Central execution script with Virtual Environment support
+
+# Get the directory where this script is located
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$DIR"
+
+VENV_DIR=".venv"
+PYTHON_BIN="python3"
+
+# Check if we are in a virtual environment
+if [ -d "$VENV_DIR" ]; then
+    PYTHON_BIN="$VENV_DIR/bin/python3"
+    PIP_BIN="$VENV_DIR/bin/pip"
+else
+    PIP_BIN="pip3"
+fi
+
+# Function to show help
+show_help() {
+    echo "============================================================"
+    echo "🤖 AILO - AI-powered Learning Oracle (VENV Mode)"
+    echo "============================================================"
+    echo "Usage: ./run [command]"
+    echo ""
+    echo "Commands:"
+    echo "  setup      - Initial setup: create venv and install dependencies"
+    echo "  data       - Refresh educational data (run data pipeline)"
+    echo "  chat       - Start the interactive CLI chatbot"
+    echo "  web        - Start the Flask web interface"
+    echo "  scheduler  - Start the background update scheduler"
+    echo "  help       - Show this help message"
+    echo ""
+    echo "Examples:"
+    echo "  ./run chat"
+    echo "  ./run setup"
+    echo ""
+    if [ -d "$VENV_DIR" ]; then
+        echo "✅ Virtual environment detected: $VENV_DIR"
+    else
+        echo "⚠️  No virtual environment detected. Run './run setup' to create one."
+    fi
+    echo "============================================================"
+}
+
+# Check if command is provided
+if [ -z "$1" ]; then
+    show_help
+    exit 0
+fi
+
+case "$1" in
+    setup)
+        echo "📦 Setting up virtual environment..."
+        if [ ! -d "$VENV_DIR" ]; then
+            python3 -m venv "$VENV_DIR"
+            echo "✅ Virtual environment created at $VENV_DIR"
+        else
+            echo "ℹ️  Virtual environment already exists."
+        fi
+        
+        PYTHON_BIN="$VENV_DIR/bin/python3"
+        PIP_BIN="$VENV_DIR/bin/pip"
+        
+        echo "⬆️  Upgrading pip..."
+        "$PYTHON_BIN" -m pip install --upgrade pip
+        
+        echo "📦 Installing dependencies from requirements.txt..."
+        if [ -f "requirements.txt" ]; then
+            "$PIP_BIN" install -r requirements.txt
+        fi
+        
+        if [ -f "requirements_ailo.txt" ]; then
+            echo "📦 Installing additional AILO dependencies..."
+            "$PIP_BIN" install -r requirements_ailo.txt
+        fi
+        
+        echo "⚙️  Running AILO system setup..."
+        "$PYTHON_BIN" setup_ailo.py
+        ;;
+    data)
+        echo "📥 Refreshing data using venv..."
+        "$PYTHON_BIN" main.py
+        ;;
+    chat)
+        echo "🚀 Starting AILO chatbot using venv..."
+        "$PYTHON_BIN" start_ailo.py
+        ;;
+    web)
+        echo "🌐 Starting web interface using venv..."
+        "$PYTHON_BIN" start_ailo_web.py
+        ;;
+    scheduler)
+        echo "⏰ Starting scheduler using venv..."
+        "$PYTHON_BIN" ailo_scheduler.py
+        ;;
+    help)
+        show_help
+        ;;
+    *)
+        echo "❌ Unknown command: $1"
+        echo "Run './run help' for usage information."
+        exit 1
+        ;;
+esac
